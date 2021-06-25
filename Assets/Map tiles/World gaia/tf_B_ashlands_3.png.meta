@@ -1,292 +1,265 @@
 fileFormatVersion: 2
-guid: ddb5440614da28249bd3ae42c91d1bbb
+guid: ba740991b61af3d4fb32894c3d820b27
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4570788705434610046
-    second: ashlands_tileset_0
+      213: -8609082462506018387
+    second: tf_B_ashlands_3_0
   - first:
-      213: -7721009312522542481
-    second: ashlands_tileset_1
+      213: 5975512495697100324
+    second: tf_B_ashlands_3_1
   - first:
-      213: 3774525939585018607
-    second: ashlands_tileset_2
+      213: 5369954979149351938
+    second: tf_B_ashlands_3_2
   - first:
-      213: -6277996943934589465
-    second: ashlands_tileset_3
+      213: 787052172532447671
+    second: tf_B_ashlands_3_3
   - first:
-      213: -9209952169542490889
-    second: ashlands_tileset_4
+      213: 7820503819072845309
+    second: tf_B_ashlands_3_4
   - first:
-      213: -238838744153090181
-    second: ashlands_tileset_5
+      213: -7608828255701893616
+    second: tf_B_ashlands_3_5
   - first:
-      213: -6290733194598273841
-    second: ashlands_tileset_6
+      213: 8532592785422053719
+    second: tf_B_ashlands_3_6
   - first:
-      213: -3428442001844488732
-    second: ashlands_tileset_7
+      213: -1430762386527033612
+    second: tf_B_ashlands_3_7
   - first:
-      213: 951937858208810198
-    second: ashlands_tileset_8
+      213: -7632042317785817976
+    second: tf_B_ashlands_3_8
   - first:
-      213: 2711534976776831869
-    second: ashlands_tileset_9
+      213: 5074686239644937651
+    second: tf_B_ashlands_3_9
   - first:
-      213: -7082303629797362164
-    second: ashlands_tileset_10
+      213: 4662568946374533052
+    second: tf_B_ashlands_3_10
   - first:
-      213: 5614205819937403397
-    second: ashlands_tileset_11
+      213: -7943776731300103379
+    second: tf_B_ashlands_3_11
   - first:
-      213: 7472210810312804923
-    second: ashlands_tileset_12
+      213: 5635693158809960691
+    second: tf_B_ashlands_3_12
   - first:
-      213: -828440713374463852
-    second: ashlands_tileset_13
+      213: -3315510111162238037
+    second: tf_B_ashlands_3_13
   - first:
-      213: -4158849693604507629
-    second: ashlands_tileset_14
+      213: -775238710012140411
+    second: tf_B_ashlands_3_14
   - first:
-      213: 2196851249381343713
-    second: ashlands_tileset_15
+      213: 8097816718130446724
+    second: tf_B_ashlands_3_15
   - first:
-      213: 5095106194282175000
-    second: ashlands_tileset_16
+      213: -3313571915862313189
+    second: tf_B_ashlands_3_16
   - first:
-      213: -949651588655024310
-    second: ashlands_tileset_17
+      213: 4754090922999908849
+    second: tf_B_ashlands_3_17
   - first:
-      213: -5689204748864258484
-    second: ashlands_tileset_18
+      213: -1217871008877684095
+    second: tf_B_ashlands_3_18
   - first:
-      213: -7744908404754069752
-    second: ashlands_tileset_19
+      213: 1031423631002318927
+    second: tf_B_ashlands_3_19
   - first:
-      213: 6318442287226001552
-    second: ashlands_tileset_20
+      213: -4585188554462766120
+    second: tf_B_ashlands_3_20
   - first:
-      213: -6409988228702046315
-    second: ashlands_tileset_21
+      213: -9067827087977900565
+    second: tf_B_ashlands_3_21
   - first:
-      213: -1395831259911708540
-    second: ashlands_tileset_22
+      213: 3736280514455091641
+    second: tf_B_ashlands_3_22
   - first:
-      213: -8695467822316122923
-    second: ashlands_tileset_23
+      213: 8519817131716395990
+    second: tf_B_ashlands_3_23
   - first:
-      213: -6832481762212032639
-    second: ashlands_tileset_24
+      213: 5944532333437552024
+    second: tf_B_ashlands_3_24
   - first:
-      213: -4148099478873716391
-    second: ashlands_tileset_25
+      213: -916530036853470238
+    second: tf_B_ashlands_3_25
   - first:
-      213: -5212763735705561023
-    second: ashlands_tileset_26
+      213: 4637135620772370514
+    second: tf_B_ashlands_3_26
   - first:
-      213: -6481890142859513810
-    second: ashlands_tileset_27
+      213: 6392082776137302225
+    second: tf_B_ashlands_3_27
   - first:
-      213: 4585799330093339768
-    second: ashlands_tileset_28
+      213: -2408810340146845032
+    second: tf_B_ashlands_3_28
   - first:
-      213: 1268796949737019713
-    second: ashlands_tileset_29
+      213: 3092543854384487015
+    second: tf_B_ashlands_3_29
   - first:
-      213: -603296992936997420
-    second: ashlands_tileset_30
+      213: 3951183752911054913
+    second: tf_B_ashlands_3_30
   - first:
-      213: 1923019377689081250
-    second: ashlands_tileset_31
+      213: 2165107047060360758
+    second: tf_B_ashlands_3_31
   - first:
-      213: 1460564600906912366
-    second: ashlands_tileset_32
+      213: 353965993645293641
+    second: tf_B_ashlands_3_32
   - first:
-      213: 6005228972317314508
-    second: ashlands_tileset_33
+      213: 6418338065728561672
+    second: tf_B_ashlands_3_33
   - first:
-      213: -6577615772572082353
-    second: ashlands_tileset_34
+      213: 6840212478700437227
+    second: tf_B_ashlands_3_34
   - first:
-      213: 3318579273527135605
-    second: ashlands_tileset_35
+      213: -439241983550644281
+    second: tf_B_ashlands_3_35
   - first:
-      213: 7558801586717819766
-    second: ashlands_tileset_36
+      213: -5068096285679152676
+    second: tf_B_ashlands_3_36
   - first:
-      213: 5149801088648174508
-    second: ashlands_tileset_37
+      213: -2846808334840118384
+    second: tf_B_ashlands_3_37
   - first:
-      213: -7216740608192817596
-    second: ashlands_tileset_38
+      213: -779779352775838582
+    second: tf_B_ashlands_3_38
   - first:
-      213: -1376411259412886259
-    second: ashlands_tileset_39
+      213: -5107300488732580842
+    second: tf_B_ashlands_3_39
   - first:
-      213: 6268107993398421434
-    second: ashlands_tileset_40
+      213: -2466373601641284380
+    second: tf_B_ashlands_3_40
   - first:
-      213: -2846226107494500638
-    second: ashlands_tileset_41
+      213: -8239328501700560174
+    second: tf_B_ashlands_3_41
   - first:
-      213: -6948801794379035708
-    second: ashlands_tileset_42
+      213: 7222856521095868646
+    second: tf_B_ashlands_3_42
   - first:
-      213: 7082450953574827210
-    second: ashlands_tileset_43
+      213: -1655626600303726896
+    second: tf_B_ashlands_3_43
   - first:
-      213: 5090267509920920365
-    second: ashlands_tileset_44
+      213: -8390122842027605686
+    second: tf_B_ashlands_3_44
   - first:
-      213: -8003209810927548437
-    second: ashlands_tileset_45
+      213: 9107542502355876281
+    second: tf_B_ashlands_3_45
   - first:
-      213: -6605053389599983693
-    second: ashlands_tileset_46
+      213: 6217115408308338740
+    second: tf_B_ashlands_3_46
   - first:
-      213: 754176134020860686
-    second: ashlands_tileset_47
+      213: -6119194463164187840
+    second: tf_B_ashlands_3_47
   - first:
-      213: 305273022800698143
-    second: ashlands_tileset_48
+      213: -5550828599006953320
+    second: tf_B_ashlands_3_48
   - first:
-      213: -8421196550591862197
-    second: ashlands_tileset_49
+      213: 2670633224698718799
+    second: tf_B_ashlands_3_49
   - first:
-      213: -8627669314595895402
-    second: ashlands_tileset_50
+      213: 8441785187547315031
+    second: tf_B_ashlands_3_50
   - first:
-      213: -6945824245925089404
-    second: ashlands_tileset_51
+      213: 1445426754953940606
+    second: tf_B_ashlands_3_51
   - first:
-      213: -3929793457672127637
-    second: ashlands_tileset_52
+      213: -5931930400584606717
+    second: tf_B_ashlands_3_52
   - first:
-      213: 4379749090706621383
-    second: ashlands_tileset_53
+      213: -6443380078457371844
+    second: tf_B_ashlands_3_53
   - first:
-      213: 2943438728693472570
-    second: ashlands_tileset_54
+      213: -462359529796766910
+    second: tf_B_ashlands_3_54
   - first:
-      213: 5514256199343455697
-    second: ashlands_tileset_55
+      213: -5626566520385334476
+    second: tf_B_ashlands_3_55
   - first:
-      213: -4376336913035678642
-    second: ashlands_tileset_56
+      213: -7676080761957463970
+    second: tf_B_ashlands_3_56
   - first:
-      213: -6832134188780861369
-    second: ashlands_tileset_57
+      213: -1767521460299237308
+    second: tf_B_ashlands_3_57
   - first:
-      213: 6652174394216704631
-    second: ashlands_tileset_58
+      213: -7497321803160694295
+    second: tf_B_ashlands_3_58
   - first:
-      213: 1406816954833972232
-    second: ashlands_tileset_59
+      213: 8051153893684106603
+    second: tf_B_ashlands_3_59
   - first:
-      213: 778778915759027806
-    second: ashlands_tileset_60
+      213: 2713806625781984174
+    second: tf_B_ashlands_3_60
   - first:
-      213: 6780302970417905121
-    second: ashlands_tileset_61
+      213: 4085723945029251139
+    second: tf_B_ashlands_3_61
   - first:
-      213: 228998131364314478
-    second: ashlands_tileset_62
+      213: 3628631794975351510
+    second: tf_B_ashlands_3_62
   - first:
-      213: 1556318956852258311
-    second: ashlands_tileset_63
+      213: 8018348078166643042
+    second: tf_B_ashlands_3_63
   - first:
-      213: -2727092995072074572
-    second: ashlands_tileset_64
+      213: 7938417114378459739
+    second: tf_B_ashlands_3_64
   - first:
-      213: -8695393930267556999
-    second: ashlands_tileset_65
+      213: 5069602607931332970
+    second: tf_B_ashlands_3_65
   - first:
-      213: 748843716705803423
-    second: ashlands_tileset_66
+      213: -480127954925749723
+    second: tf_B_ashlands_3_66
   - first:
-      213: -3833978596069790252
-    second: ashlands_tileset_67
+      213: 1203614695949392300
+    second: tf_B_ashlands_3_67
   - first:
-      213: -6928298407039405478
-    second: ashlands_tileset_68
+      213: 6359245561678627703
+    second: tf_B_ashlands_3_68
   - first:
-      213: -8700399197868014406
-    second: ashlands_tileset_69
+      213: 4462891564501813533
+    second: tf_B_ashlands_3_69
   - first:
-      213: -4944056175106801549
-    second: ashlands_tileset_70
+      213: -1797050632877860783
+    second: tf_B_ashlands_3_70
   - first:
-      213: -6085155344266215113
-    second: ashlands_tileset_71
+      213: 7903770863370129064
+    second: tf_B_ashlands_3_71
   - first:
-      213: 3739527541696240800
-    second: ashlands_tileset_72
+      213: 124792059688089690
+    second: tf_B_ashlands_3_72
   - first:
-      213: -5696997121913673670
-    second: ashlands_tileset_73
+      213: 8814490754309855578
+    second: tf_B_ashlands_3_73
   - first:
-      213: -4960943550775286698
-    second: ashlands_tileset_74
+      213: 3592053289689696596
+    second: tf_B_ashlands_3_74
   - first:
-      213: 2134964872938343329
-    second: ashlands_tileset_75
+      213: -6230658221197003982
+    second: tf_B_ashlands_3_75
   - first:
-      213: -2622055941075457773
-    second: ashlands_tileset_76
+      213: -6248771015476631605
+    second: tf_B_ashlands_3_76
   - first:
-      213: 2447597904252333577
-    second: ashlands_tileset_77
+      213: -1070081460427591395
+    second: tf_B_ashlands_3_77
   - first:
-      213: 1388197398723486938
-    second: ashlands_tileset_78
+      213: 4934945767562578961
+    second: tf_B_ashlands_3_78
   - first:
-      213: -1925553478231009067
-    second: ashlands_tileset_79
+      213: 4994213218159371895
+    second: tf_B_ashlands_3_79
   - first:
-      213: -909462940037732784
-    second: ashlands_tileset_80
+      213: -5174997532890899196
+    second: tf_B_ashlands_3_80
   - first:
-      213: 6834199162774977420
-    second: ashlands_tileset_81
+      213: 5578094113416415979
+    second: tf_B_ashlands_3_81
   - first:
-      213: 3702006200378560199
-    second: ashlands_tileset_82
+      213: 5534995155219389942
+    second: tf_B_ashlands_3_82
   - first:
-      213: -1529022815338331377
-    second: ashlands_tileset_83
+      213: -5667419301815509039
+    second: tf_B_ashlands_3_83
   - first:
-      213: 1379398562564035900
-    second: ashlands_tileset_84
+      213: 482525962274555013
+    second: tf_B_ashlands_3_84
   - first:
-      213: 8885848980112233228
-    second: ashlands_tileset_85
-  - first:
-      213: 311034941333874494
-    second: ashlands_tileset_86
-  - first:
-      213: -7248980053803922174
-    second: ashlands_tileset_87
-  - first:
-      213: 1106748654117352002
-    second: ashlands_tileset_88
-  - first:
-      213: 1770956001583572810
-    second: ashlands_tileset_89
-  - first:
-      213: 2029353189181079760
-    second: ashlands_tileset_90
-  - first:
-      213: 3251036335185033227
-    second: ashlands_tileset_91
-  - first:
-      213: 5215034314596838203
-    second: ashlands_tileset_92
-  - first:
-      213: -2606408758749169465
-    second: ashlands_tileset_93
-  - first:
-      213: 475187561554148092
-    second: ashlands_tileset_94
+      213: 5771929898734565324
+    second: tf_B_ashlands_3_85
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -388,13 +361,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ashlands_tileset_0
+      name: tf_B_ashlands_3_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 304
+        x: 48
+        y: 720
         width: 192
-        height: 16
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +375,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e792cca4c14be6f30800000000000000
-      internalID: 4570788705434610046
+      spriteID: da9984cfc15668880800000000000000
+      internalID: -8609082462506018387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_1
+      name: tf_B_ashlands_3_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 176
-        width: 160
-        height: 144
+        x: 255
+        y: 720
+        width: 18
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,229 +396,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f626c9b10f679d490800000000000000
-      internalID: -7721009312522542481
+      spriteID: 42efee884f84de250800000000000000
+      internalID: 5975512495697100324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_2
+      name: tf_B_ashlands_3_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 304
-        width: 64
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fea6670085fc16430800000000000000
-      internalID: 3774525939585018607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_3
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 304
-        width: 6
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e57acfaa0310e8a0800000000000000
-      internalID: -6277996943934589465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_4
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 290
-        width: 29
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f4e4185c4daf2080800000000000000
-      internalID: -9209952169542490889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_5
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 289
-        width: 30
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7797287d697facf0800000000000000
-      internalID: -238838744153090181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_6
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 225
-        width: 59
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcc263f3d73d2b8a0800000000000000
-      internalID: -6290733194598273841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 272
+        x: 288
+        y: 720
         width: 96
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e5b70bf92abb60d0800000000000000
-      internalID: -3428442001844488732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 272
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d448ce3076f53d00800000000000000
-      internalID: 951937858208810198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_9
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 256
-        width: 10
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7384dee1be41a520800000000000000
-      internalID: 2711534976776831869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_10
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 16
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c06f7725f5a96bd90800000000000000
-      internalID: -7082303629797362164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_11
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 227
-        width: 31
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 502bc49a27aa9ed40800000000000000
-      internalID: 5614205819937403397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_12
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 208
-        width: 80
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -654,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a478b7420a2b760800000000000000
-      internalID: 7472210810312804923
+      spriteID: 20c89003a99e58a40800000000000000
+      internalID: 5369954979149351938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_13
+      name: tf_B_ashlands_3_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 208
-        width: 80
-        height: 48
+        x: 399
+        y: 729
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49808d97f89c084f0800000000000000
-      internalID: -828440713374463852
+      spriteID: 7b9fe7be7cb2cea00800000000000000
+      internalID: 787052172532447671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_14
+      name: tf_B_ashlands_3_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 208
-        width: 80
-        height: 48
+        x: 444
+        y: 726
+        width: 24
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,1069 +459,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 310167afc3cc846c0800000000000000
-      internalID: -4158849693604507629
+      spriteID: df53c64e9c2088c60800000000000000
+      internalID: 7820503819072845309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_15
+      name: tf_B_ashlands_3_5
       rect:
         serializedVersion: 2
-        x: 496
-        y: 231
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e18fb76298cc7e10800000000000000
-      internalID: 2196851249381343713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_16
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 229
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81ad413b61475b640800000000000000
-      internalID: 5095106194282175000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_17
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 214
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a47f4dd59e822d2f0800000000000000
-      internalID: -949651588655024310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_18
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 212
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4efa717c62eb01b0800000000000000
-      internalID: -5689204748864258484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_19
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 210
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80742b417de848490800000000000000
-      internalID: -7744908404754069752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_20
-      rect:
-        serializedVersion: 2
-        x: 572
-        y: 208
-        width: 40
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09899ef98cd9fa750800000000000000
-      internalID: 6318442287226001552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_21
-      rect:
-        serializedVersion: 2
-        x: 501
-        y: 195
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59777c5eaa52b07a0800000000000000
-      internalID: -6409988228702046315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_22
-      rect:
-        serializedVersion: 2
-        x: 516
-        y: 194
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 480a3925dd201ace0800000000000000
-      internalID: -1395831259911708540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_23
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 195
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dc020f061e735780800000000000000
-      internalID: -8695467822316122923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_24
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 198
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18f440d89062e21a0800000000000000
-      internalID: -6832481762212032639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_25
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 196
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 959cfb4608dfe66c0800000000000000
-      internalID: -4148099478873716391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_26
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 194
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1485b33300b88a7b0800000000000000
-      internalID: -5212763735705561023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_27
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 193
-        width: 28
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e20b0c1f143bb06a0800000000000000
-      internalID: -6481890142859513810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_28
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 144
-        width: 240
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8741071b13804af30800000000000000
-      internalID: 4585799330093339768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_29
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 178
-        width: 46
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1499c297a1cab9110800000000000000
-      internalID: 1268796949737019713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_30
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 178
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ddcde1d498a0a7f0800000000000000
-      internalID: -603296992936997420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_31
-      rect:
-        serializedVersion: 2
-        x: 561
-        y: 178
-        width: 46
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a5b9577fefefaa10800000000000000
-      internalID: 1923019377689081250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_32
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 161
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e62119024c7f44410800000000000000
-      internalID: 1460564600906912366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_33
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 163
-        width: 29
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccd8bd9eeebd65350800000000000000
-      internalID: 6005228972317314508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_34
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 164
-        width: 29
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f95d6fd4d97b4a0800000000000000
-      internalID: -6577615772572082353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_35
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 162
-        width: 48
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57d0f854446fd0e20800000000000000
-      internalID: 3318579273527135605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_36
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 152
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67389ffaef146e860800000000000000
-      internalID: 7558801586717819766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_37
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 145
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cab5bc82ec4c77740800000000000000
-      internalID: 5149801088648174508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_38
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 146
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 446d78c17acf8db90800000000000000
-      internalID: -7216740608192817596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_39
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 146
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0dc8d9804106ece0800000000000000
-      internalID: -1376411259412886259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_40
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 149
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab7ac48920bccf650800000000000000
-      internalID: 6268107993398421434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_41
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 146
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e6f8586f6c2088d0800000000000000
-      internalID: -2846226107494500638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_42
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 146
-        width: 19
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cbc0779595e09f90800000000000000
-      internalID: -6948801794379035708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_43
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 115
-        width: 57
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac444fa2e9be94260800000000000000
-      internalID: 7082450953574827210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_44
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 115
-        width: 57
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d237c84b45344a640800000000000000
-      internalID: 5090267509920920365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_45
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 146
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be70ebc6413eee090800000000000000
-      internalID: -8003209810927548437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_46
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 132
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b7376eefe22654a0800000000000000
-      internalID: -6605053389599983693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_47
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 130
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0b0466b23f577a00800000000000000
-      internalID: 754176134020860686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_48
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 131
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1b9b83623c8c3400800000000000000
-      internalID: 305273022800698143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_49
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 133
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a2a3aca56e12b80800000000000000
-      internalID: -8421196550591862197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_50
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 132
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69749ff387c544880800000000000000
-      internalID: -8627669314595895402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_51
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 134
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48fe65d16a97b9f90800000000000000
-      internalID: -6945824245925089404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_52
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 130
-        width: 23
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6b7cc2dba19679c0800000000000000
-      internalID: -3929793457672127637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_53
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 130
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c388e4d79ef7cc30800000000000000
-      internalID: 4379749090706621383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_54
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 240
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3dd6e1cde139d820800000000000000
-      internalID: 2943438728693472570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_55
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 115
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ddbc5a2cc2968c40800000000000000
-      internalID: 5514256199343455697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_56
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 113
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4c2411b3c02443c0800000000000000
-      internalID: -4376336913035678642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_57
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 114
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7484aeb47226f21a0800000000000000
-      internalID: -6832134188780861369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_58
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 116
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77a6c37ed55415c50800000000000000
-      internalID: 6652174394216704631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_59
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 115
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80c20e81194068310800000000000000
-      internalID: 1406816954833972232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_60
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 117
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5671683c47ceca00800000000000000
-      internalID: 778778915759027806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_61
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 113
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1edf845c0a9781e50800000000000000
-      internalID: 6780302970417905121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_62
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 113
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6db23256909d2300800000000000000
-      internalID: 228998131364314478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_63
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 101
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 706a26478d7299510800000000000000
-      internalID: 1556318956852258311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_64
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 99
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bcd547ae5b672ad0800000000000000
-      internalID: -2727092995072074572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_65
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 85
-        width: 14
+        x: 483
+        y: 729
+        width: 42
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1767,20 +480,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97380546a41c35780800000000000000
-      internalID: -8695393930267556999
+      spriteID: 01efee5c303086690800000000000000
+      internalID: -7608828255701893616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_66
+      name: tf_B_ashlands_3_6
       rect:
         serializedVersion: 2
-        x: 373
-        y: 83
-        width: 24
-        height: 25
+        x: 531
+        y: 738
+        width: 42
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1788,20 +501,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9c588e846d646a00800000000000000
-      internalID: 748843716705803423
+      spriteID: 75174244eebd96670800000000000000
+      internalID: 8532592785422053719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_67
+      name: tf_B_ashlands_3_7
       rect:
         serializedVersion: 2
-        x: 404
-        y: 81
-        width: 40
-        height: 31
+        x: 582
+        y: 732
+        width: 39
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,20 +522,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd2fc8b7c8facac0800000000000000
-      internalID: -3833978596069790252
+      spriteID: 4f6e011a039e42ce0800000000000000
+      internalID: -1430762386527033612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_68
+      name: tf_B_ashlands_3_8
       rect:
         serializedVersion: 2
-        x: 499
-        y: 48
-        width: 122
-        height: 64
+        x: 630
+        y: 726
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,20 +543,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52f2867e4db9df90800000000000000
-      internalID: -6928298407039405478
+      spriteID: 88c90a1c2f9851690800000000000000
+      internalID: -7632042317785817976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_69
+      name: tf_B_ashlands_3_9
       rect:
         serializedVersion: 2
-        x: 324
-        y: 84
-        width: 9
-        height: 10
+        x: 678
+        y: 723
+        width: 84
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1851,61 +564,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab4cbf6b609f14780800000000000000
-      internalID: -8700399197868014406
+      spriteID: 3bd69948f38ec6640800000000000000
+      internalID: 5074686239644937651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_70
+      name: tf_B_ashlands_3_10
       rect:
         serializedVersion: 2
-        x: 337
-        y: 82
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 370ce2d7a1f236bb0800000000000000
-      internalID: -4944056175106801549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_71
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 67
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73141f5747f2d8ba0800000000000000
-      internalID: -6085155344266215113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_72
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 66
-        width: 11
+        x: 12
+        y: 696
+        width: 18
         height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1914,20 +585,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ac189e7c7875e330800000000000000
-      internalID: 3739527541696240800
+      spriteID: cbfdb6dd0c5c4b040800000000000000
+      internalID: 4662568946374533052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_73
+      name: tf_B_ashlands_3_11
       rect:
         serializedVersion: 2
-        x: 356
-        y: 67
-        width: 8
-        height: 8
+        x: 54
+        y: 675
+        width: 39
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1935,20 +606,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a38a9e53d4330f0b0800000000000000
-      internalID: -5696997121913673670
+      spriteID: d2bf7db962902c190800000000000000
+      internalID: -7943776731300103379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_74
+      name: tf_B_ashlands_3_12
       rect:
         serializedVersion: 2
-        x: 368
-        y: 65
-        width: 14
-        height: 13
+        x: 105
+        y: 678
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1956,20 +627,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6542641ff10372bb0800000000000000
-      internalID: -4960943550775286698
+      spriteID: 3f087f99111063e40800000000000000
+      internalID: 5635693158809960691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_75
+      name: tf_B_ashlands_3_13
       rect:
         serializedVersion: 2
-        x: 385
-        y: 64
-        width: 14
-        height: 16
+        x: 147
+        y: 678
+        width: 33
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1977,20 +648,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab4d6b8d3be0ad10800000000000000
-      internalID: 2134964872938343329
+      spriteID: bab75f6ce11fcf1d0800000000000000
+      internalID: -3315510111162238037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_76
+      name: tf_B_ashlands_3_14
       rect:
         serializedVersion: 2
-        x: 401
-        y: 64
-        width: 14
-        height: 16
+        x: 195
+        y: 687
+        width: 33
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1998,20 +669,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 319aefa83069c9bd0800000000000000
-      internalID: -2622055941075457773
+      spriteID: 5842899208ccd35f0800000000000000
+      internalID: -775238710012140411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_77
+      name: tf_B_ashlands_3_15
       rect:
         serializedVersion: 2
-        x: 418
-        y: 65
-        width: 12
-        height: 13
+        x: 243
+        y: 678
+        width: 42
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2019,19 +690,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e63f3735d97f120800000000000000
-      internalID: 2447597904252333577
+      spriteID: 481826ca669316070800000000000000
+      internalID: 8097816718130446724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_78
+      name: tf_B_ashlands_3_16
       rect:
         serializedVersion: 2
-        x: 432
-        y: 65
-        width: 16
+        x: 306
+        y: 678
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17f05906e3d302d0800000000000000
+      internalID: -3313571915862313189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 678
+        width: 138
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f98157918ce9f140800000000000000
+      internalID: 4754090922999908849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 678
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a599d15c0491fe0800000000000000
+      internalID: -1217871008877684095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_19
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 678
+        width: 138
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4836d2e35a505e00800000000000000
+      internalID: 1031423631002318927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 627
+        width: 36
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db5f079d432e50c0800000000000000
+      internalID: -4585188554462766120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 678
+        width: 27
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2040,19 +816,859 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4e80ddd2ed34310800000000000000
-      internalID: 1388197398723486938
+      spriteID: be599609e4b982280800000000000000
+      internalID: -9067827087977900565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_79
+      name: tf_B_ashlands_3_22
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 240
+        x: 12
+        y: 636
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93f4d055fe9d330800000000000000
+      internalID: 3736280514455091641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 630
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d34e379a887c3670800000000000000
+      internalID: 8519817131716395990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 633
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8958e5a69a83f7250800000000000000
+      internalID: 5944532333437552024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 639
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb8f5799c4d743f0800000000000000
+      internalID: -916530036853470238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 636
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258927b474a6a5040800000000000000
+      internalID: 4637135620772370514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_27
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 642
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08e8e0b6d35b850800000000000000
+      internalID: 6392082776137302225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 630
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a624012cf229ed0800000000000000
+      internalID: -2408810340146845032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 633
+        width: 87
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a97e4204ceaea20800000000000000
+      internalID: 3092543854384487015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_30
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 636
+        width: 87
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148ee8260bc65d630800000000000000
+      internalID: 3951183752911054913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 630
+        width: 144
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e4ab853610c0e10800000000000000
+      internalID: 2165107047060360758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 630
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940cbc1223a89e400800000000000000
+      internalID: 353965993645293641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 585
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026e180774821950800000000000000
+      internalID: 6418338065728561672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 579
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee322522015dee50800000000000000
+      internalID: 6840212478700437227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf96004ebf77e9f0800000000000000
+      internalID: -439241983550644281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 588
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd11e94b7418aa9b0800000000000000
+      internalID: -5068096285679152676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_37
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 585
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093cb3a07ea1e78d0800000000000000
+      internalID: -2846808334840118384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_38
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 591
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84bc926fcaad25f0800000000000000
+      internalID: -779779352775838582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 579
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146aefd3493f19b0800000000000000
+      internalID: -5107300488732580842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_40
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 579
+        width: 69
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec35c6d64ea5cdd0800000000000000
+      internalID: -2466373601641284380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_41
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 489
+        width: 171
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daf26ca16608ad80800000000000000
+      internalID: -8239328501700560174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_42
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 489
+        width: 171
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e07883dcbdbc3460800000000000000
+      internalID: 7222856521095868646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 543
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de653001680609e0800000000000000
+      internalID: -1655626600303726896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_44
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 537
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41cd0b5abb409b80800000000000000
+      internalID: -8390122842027605686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_45
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 495
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9b1bde6ad746e70800000000000000
+      internalID: 9107542502355876281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_46
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 489
+        width: 72
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43083df2681a74650800000000000000
+      internalID: 6217115408308338740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 483
+        width: 120
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bbf8f7e01441ba0800000000000000
+      internalID: -6119194463164187840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 492
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908c1b7cce77f2b0800000000000000
+      internalID: -5550828599006953320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_49
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 486
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ae58ba4ceff0520800000000000000
+      internalID: 2670633224698718799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 438
+        width: 87
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b79edc6ee372570800000000000000
+      internalID: 8441785187547315031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 435
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e00e5b9ff2f0410800000000000000
+      internalID: 1445426754953940606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 243
+        width: 177
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c50d8babc8dada0800000000000000
+      internalID: -5931930400584606717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_53
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 288
+        width: 366
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3348b605f38496a0800000000000000
+      internalID: -6443380078457371844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 336
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24372f3157e5599f0800000000000000
+      internalID: -462359529796766910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433935f7f8b6ae1b0800000000000000
+      internalID: -5626566520385334476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 249
+        width: 93
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58c0547735197590800000000000000
+      internalID: -7676080761957463970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448fbf9b8908877e0800000000000000
+      internalID: -1767521460299237308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 255
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d0d3ea8924f790800000000000000
+      internalID: -7497321803160694295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b655b093fc17bbf60800000000000000
+      internalID: 8051153893684106603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 204
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab26de6fb069a520800000000000000
+      internalID: 2713806625781984174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_61
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 198
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340b6c9e74863b830800000000000000
+      internalID: 4085723945029251139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_62
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 192
+        width: 120
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2061,20 +1677,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d8d506405f0745e0800000000000000
-      internalID: -1925553478231009067
+      spriteID: 6d2a138646d7b5230800000000000000
+      internalID: 3628631794975351510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_80
+      name: tf_B_ashlands_3_63
       rect:
         serializedVersion: 2
-        x: 323
-        y: 41
-        width: 15
-        height: 13
+        x: 9
+        y: 153
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2082,20 +1698,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0562baa4640f063f0800000000000000
-      internalID: -909462940037732784
+      spriteID: 2611f841815e64f60800000000000000
+      internalID: 8018348078166643042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_81
+      name: tf_B_ashlands_3_64
       rect:
         serializedVersion: 2
-        x: 340
-        y: 47
-        width: 13
-        height: 9
+        x: 54
+        y: 150
+        width: 33
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2103,20 +1719,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b797dede3f7de50800000000000000
-      internalID: 6834199162774977420
+      spriteID: b5ad8655e4cea2e60800000000000000
+      internalID: 7938417114378459739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_82
+      name: tf_B_ashlands_3_65
       rect:
         serializedVersion: 2
-        x: 369
-        y: 50
-        width: 15
-        height: 13
+        x: 108
+        y: 153
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2124,20 +1740,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ce8bd1760b206330800000000000000
-      internalID: 3702006200378560199
+      spriteID: a69142646b8da5640800000000000000
+      internalID: 5069602607931332970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_83
+      name: tf_B_ashlands_3_66
       rect:
         serializedVersion: 2
-        x: 386
-        y: 50
-        width: 13
-        height: 6
+        x: 144
+        y: 147
+        width: 42
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2145,20 +1761,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f038a4eb9d1d7cae0800000000000000
-      internalID: -1529022815338331377
+      spriteID: 52a7ae73b2e3659f0800000000000000
+      internalID: -480127954925749723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_84
+      name: tf_B_ashlands_3_67
       rect:
         serializedVersion: 2
-        x: 405
-        y: 53
-        width: 9
-        height: 9
+        x: 195
+        y: 144
+        width: 42
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2166,20 +1782,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c35505d2fab942310800000000000000
-      internalID: 1379398562564035900
+      spriteID: ca9d08e503914b010800000000000000
+      internalID: 1203614695949392300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_85
+      name: tf_B_ashlands_3_68
       rect:
         serializedVersion: 2
-        x: 419
-        y: 36
-        width: 26
-        height: 22
+        x: 243
+        y: 144
+        width: 42
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2187,20 +1803,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c035b537190e05b70800000000000000
-      internalID: 8885848980112233228
+      spriteID: 77385574524904850800000000000000
+      internalID: 6359245561678627703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_86
+      name: tf_B_ashlands_3_69
       rect:
         serializedVersion: 2
-        x: 331
-        y: 25
-        width: 26
-        height: 22
+        x: 294
+        y: 147
+        width: 36
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2208,20 +1824,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37a0f691a4015400800000000000000
-      internalID: 311034941333874494
+      spriteID: d19c7358b306fed30800000000000000
+      internalID: 4462891564501813533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_87
+      name: tf_B_ashlands_3_70
       rect:
         serializedVersion: 2
-        x: 357
-        y: 38
-        width: 9
-        height: 9
+        x: 336
+        y: 147
+        width: 48
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2229,20 +1845,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d002d3c03766b90800000000000000
-      internalID: -7248980053803922174
+      spriteID: 1589ce778f79f07e0800000000000000
+      internalID: -1797050632877860783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_88
+      name: tf_B_ashlands_3_71
       rect:
         serializedVersion: 2
-        x: 379
-        y: 25
-        width: 26
-        height: 22
+        x: 9
+        y: 75
+        width: 45
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2250,20 +1866,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2427e408906fb5f00800000000000000
-      internalID: 1106748654117352002
+      spriteID: 8ae424969b5dfad60800000000000000
+      internalID: 7903770863370129064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_89
+      name: tf_B_ashlands_3_72
       rect:
         serializedVersion: 2
-        x: 323
-        y: 30
-        width: 6
-        height: 5
+        x: 60
+        y: 93
+        width: 39
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2271,19 +1887,166 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a472c3bb913b39810800000000000000
-      internalID: 1770956001583572810
+      spriteID: a587f7497b95bb100800000000000000
+      internalID: 124792059688089690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_90
+      name: tf_B_ashlands_3_73
       rect:
         serializedVersion: 2
-        x: 354
-        y: 22
-        width: 11
+        x: 147
+        y: 102
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a599a9ec3ac535a70800000000000000
+      internalID: 8814490754309855578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_74
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4594a3a7f6989d130800000000000000
+      internalID: 3592053289689696596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_75
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2337fa8fb514889a0800000000000000
+      internalID: -6230658221197003982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 60
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc722cb6ed7e749a0800000000000000
+      internalID: -6248771015476631605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_77
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 27
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d117b7ec49e4621f0800000000000000
+      internalID: -1070081460427591395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_78
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 66
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c826577037c7440800000000000000
+      internalID: 4934945767562578961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_79
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 27
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77623f026720f4540800000000000000
+      internalID: 4994213218159371895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 42
+        width: 18
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2292,83 +2055,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0c1fc39f5b92c10800000000000000
-      internalID: 2029353189181079760
+      spriteID: 40dd3828927be28b0800000000000000
+      internalID: -5174997532890899196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashlands_tileset_91
+      name: tf_B_ashlands_3_81
       rect:
         serializedVersion: 2
-        x: 327
-        y: 19
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b08779672500e1d20800000000000000
-      internalID: 3251036335185033227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_92
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 17
-        width: 13
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3b640524168f5840800000000000000
-      internalID: 5215034314596838203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_93
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 19
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c8f9431b0d24dbd0800000000000000
-      internalID: -2606408758749169465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashlands_tileset_94
-      rect:
-        serializedVersion: 2
-        x: 433
+        x: 102
         y: 18
-        width: 13
-        height: 11
+        width: 33
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2376,8 +2076,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa7e10d194389600800000000000000
-      internalID: 475187561554148092
+      spriteID: bea02e9ca0f596d40800000000000000
+      internalID: 5578094113416415979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_82
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd1c5c94c040dc40800000000000000
+      internalID: 5534995155219389942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_83
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df181a1c284951b0800000000000000
+      internalID: -5667419301815509039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 9
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58447406ec642b600800000000000000
+      internalID: 482525962274555013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tf_B_ashlands_3_85
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 6
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b78279a30a1050800000000000000
+      internalID: 5771929898734565324
       vertices: []
       indices: 
       edges: []
