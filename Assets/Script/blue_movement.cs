@@ -7,6 +7,11 @@ public class blue_movement : MonoBehaviour
   //variabili pubbliche
   public float speed;                       //velocità
 
+  void Start()
+  {
+    GetComponent<Animation>().Play();
+  }
+
   // Update is called once per frame
   void Update()
   {
