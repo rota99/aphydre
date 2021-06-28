@@ -7,11 +7,6 @@ public class blue_movement : MonoBehaviour
   //variabili pubbliche
   public float speed;                       //velocità
 
-  void Start()
-  {
-    GetComponent<Animation>().Play();
-  }
-
   // Update is called once per frame
   void Update()
   {
@@ -25,12 +20,12 @@ public class blue_movement : MonoBehaviour
       modificatore = 1;
     }
 
-    if(Input.GetKeyDown("right") || Input.GetKeyDown("left") || Input.GetKeyDown("d") || Input.GetKeyDown("a") || Input.GetKeyDown("down") || Input.GetKeyDown("s")) {
+    /*if(Input.GetKeyDown("right") || Input.GetKeyDown("left") || Input.GetKeyDown("d") || Input.GetKeyDown("a") || Input.GetKeyDown("down") || Input.GetKeyDown("s")) {
       GetComponent<Animation>().Play("blue-running");
     }
     else{
       GetComponent<Animation>().Stop("blue-running");
-    }
+    }*/
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
     //oppure se l'utente vuole andare a sinistra e il personaggio è rivolto a destra,
