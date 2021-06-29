@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class witch_movement : MonoBehaviour
@@ -13,6 +14,11 @@ public class witch_movement : MonoBehaviour
   void Start()
   {
 
+  }
+
+  public void stopAttack() {
+    animator.SetBool("Attack", false);
+    print("passato tempo");
   }
 
   // Update is called once per frame
@@ -31,8 +37,14 @@ public class witch_movement : MonoBehaviour
     if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s")) {
       animator.SetFloat("Speed", 1);
     }
-    else{
+    else {
       animator.SetFloat("Speed", 0);
+    }
+
+    if(Input.GetKey("z")) {
+      animator.SetBool("Attack", true);
+      Thread.Sleep(48);
+      animator.SetBool("Attack", false);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
