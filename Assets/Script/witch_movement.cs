@@ -7,6 +7,7 @@ public class witch_movement : MonoBehaviour
 
   //variabili pubbliche
   public float speed;                       //velocità
+  public Animator animator;
 
   // Start is called before the first frame update
   void Start()
@@ -25,6 +26,13 @@ public class witch_movement : MonoBehaviour
     }
     else {
       modificatore = 1;
+    }
+
+    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s")) {
+      animator.SetFloat("Speed", 1);
+    }
+    else{
+      animator.SetFloat("Speed", 0);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
