@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prima schermata.unity
     guid: 407302c1c77799b41af9d66bee591052
+  - enabled: 1
+    path: Assets/Scenes/World auro.unity
+    guid: 3e4a93e9714988b4092152a22303b3a5
+  - enabled: 1
+    path: Assets/Scenes/Word Gaia.unity
+    guid: 6521b3802bb248f43915143ea7a803b4
+  - enabled: 1
+    path: Assets/Scenes/boss_battle.unity
+    guid: 16d0464d019681a438f1db4d312e5abd
   m_configObjects: {}
