@@ -11,6 +11,9 @@ public class witch_movement : MonoBehaviour
   public float speed;                       //velocità
   public Animator animator;
 
+  //variabili locali
+  float attackTime;
+
   // Start is called before the first frame update
   void Start()
   {
@@ -44,8 +47,14 @@ public class witch_movement : MonoBehaviour
     }
 
     if(Input.GetKey("z")) {
+      attackTime += Time.deltaTime;
+
       animator.SetBool("Attack", true);
-      Task.Delay(48).ContinueWith((task) => { animator.SetTrigger("Idle"); });
+
+      if(attackTime > 0.5f) {
+        animator.SetTrigger("Idle");
+        attackTime = 0;
+      }
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
