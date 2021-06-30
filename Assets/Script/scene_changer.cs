@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger: MonoBehaviour {
+public class scene_changer : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
 
-  public void WordGaia() {
-    SceneManager.LoadScene("Word Gaia");
-  }
+    }
 
-  /*public void Scene2() {
-    SceneManager.LoadScene("Scene2");
-  }
+    // Update is called once per frame
+    void Update()
+    {
 
-  public void Scene3() {
-    SceneManager.LoadScene("Scene3");
-  }*/
+    }
+
+    public void changeMenuScene(string sceneName) {
+      SceneManager.LoadScene(sceneName);
+    }
 }
