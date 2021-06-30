@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class chest_interaction : MonoBehaviour
 {
-  public AudioSource chestOpen;
-  public AudioSource chestClose;
+  //public AudioClip chestOpen;
+  //public AudioClip chestClose;
 
   // Start is called before the first frame update
   void Start()
   {
-    chestOpen = gameObject.AddComponent<AudioSource>();
-    chestClose = gameObject.AddComponent<AudioSource>();
+    //chestOpen = gameObject.AddComponent<AudioSource>();
+    //chestClose = gameObject.AddComponent<AudioSource>();
   }
 
   // Update is called once per frame
@@ -20,8 +20,10 @@ public class chest_interaction : MonoBehaviour
 
   }
 
-  void OnTriggerEnter2D(Collider2D chest) {
-    if(Input.GetKey("x") && chest.transform.name.Contains("chest")) {
+  void OnTriggerStay2D(Collider2D chest) {
+    //chest.GetComponent<Animator>().SetBool("chest_opened", true);
+
+    if(Input.GetKey("x")) {
       chest.GetComponent<Animator>().SetBool("chest_opened", true);
     }
     else {
