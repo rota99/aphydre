@@ -19,6 +19,7 @@ public class chest_interaction : MonoBehaviour
       chest.GetComponent<Animator>().SetBool("chest_opened", true);
       chest.transform.Find("chest_open_sound").GetComponent<AudioSource>().Play();
       //potion_found_message.rectTransform.localScale = new Vector3(0.05f, 0.09f, 0.0f);
+      potion_found_message.SetActive(true);
     }
   }
 
@@ -27,6 +28,7 @@ public class chest_interaction : MonoBehaviour
       chest.GetComponent<Animator>().SetBool("chest_opened", false);
       chest.transform.Find("chest_close_sound").GetComponent<AudioSource>().Play();
       //potion_found_message.rectTransform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
+      potion_found_message.SetActive(false);
     }
   }
 }
