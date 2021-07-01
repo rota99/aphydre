@@ -9,21 +9,13 @@ public class witch_movement : MonoBehaviour
 
   //variabili pubbliche
   public float speed;                       //velocità
-  public Animator animator;
-
-  //variabili locali
-  float attackTime;
+  public Animator animatorBlue;
+  public Animator animatorWhite;
 
   // Start is called before the first frame update
   void Start()
   {
 
-  }
-
-  void stopAttack() {
-    animator.SetBool("Attack", true);
-    Thread.Sleep(48);
-    animator.SetBool("Attack", false);
   }
 
   // Update is called once per frame
@@ -40,28 +32,22 @@ public class witch_movement : MonoBehaviour
     }
 
     if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s")) {
-      animator.SetFloat("Speed", 1);
+      animatorBlue.SetFloat("Speed", 1);
+      animatorWhite.SetFloat("Speed", 1);
     }
     else {
-      animator.SetFloat("Speed", 0);
-    }
-
-    if(Input.GetKey("z")) {
-      attackTime += Time.deltaTime;
-
-      animator.SetBool("Attack", true);
-
-      if(attackTime > 0.5f) {
-        animator.SetTrigger("Idle");
-        attackTime = 0;
-      }
+      animatorBlue.SetFloat("Speed", 0);
+      animatorWhite.SetFloat("Speed", 0);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
     //oppure se l'utente vuole andare a sinistra e il personaggio è rivolto a destra,
     //allora lo giro nella direzione corretta
-    if(((Input.GetKey("right") || Input.GetKey("d")) && animator.transform.localScale.x < 0) || ((Input.GetKey("left") || Input.GetKey("a")) && animator.transform.localScale.x > 0))
-      animator.transform.localScale = new Vector3(animator.transform.localScale.x*(-1), animator.transform.localScale.y, animator.transform.localScale.z);
+    if(((Input.GetKey("right") || Input.GetKey("d")) && transform.localScale.x < 0) || ((Input.GetKey("left") || Input.GetKey("a")) && transform.localScale.x > 0)) {
+      transform.localScale = new Vector3(transform.localScale.x*(-1), transform.localScale.y, transform.localScale.z);
+      //animatorWhite.transform.position = new Vector3(animatorWhite.transform.position.x*(-1), animatorWhite.transform.position.y, animatorWhite.transform.position.z);
+      //animatorWhite.transform.localScale = new Vector3(animatorWhite.transform.localScale.x*(-1), animatorWhite.transform.localScale.y, animatorWhite.transform.localScale.z);
+    }
 
     //animator.transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
     transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
