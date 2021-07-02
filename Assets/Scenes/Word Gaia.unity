@@ -4392,18 +4392,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frasi_suore:
-  - 
-  - 
-  - 
-  - 
+  - "Sia la strada al tuo fianco, il vento sempre alle tue spalle, che il sole splenda
+    caldo sul tuo viso e la pioggia cada dolce nei campi attorno e, finch\xE9 non
+    ci incontreremo di nuovo, possa Dio proteggervi nel palmo della sua mano. "
+  - "Benedette siate, coraggiose viaggiatrici,  che attraversate queste vie corrotte
+    dalla malvagit\xE0.  Che il Signore sia con voi,  allontani da voi le tenebre
+    del male e vi illumini con la luce del bene. "
+  - "Come i santi magi, al termine del vostro cammino, possiate trovare, con immensa
+    gioia la luce dell\u2019eterna gloria che vi attender\xE0 al termine della battaglia
+    contro il male. "
+  - "I Santi,  nel cui potere e autorit\xE0 confidiamo,  intercedano per voi presso
+    Dio  per aiutarvi nella vostra missione  contro le forze del male. "
   frasi_plebei:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Povero me! Quella bestia terribile mi ha portato via ogni cosa. Cosa abbiamo
+    fatto di male per meritare tutta questa sventura?
+  - Sono vivo solo per miracolo ma non sono sicuro di poter dire lo stesso dei miei
+    concittadini.
+  - "Da quando \xE8 arrivato quel mostro la terra \xE8 diventata arida e non cresce
+    pi\xF9 nulla attorno alla citt\xE0. Morte e carestia, sembra l\u2019arrivo dell\u2019apocalisse."
+  - Vorrei solo poter riabbracciare i miei cari, non chiedo altro ma non so dove
+    cominciare per cercarli.
+  - "Abbiamo combattuto con tutte le nostre forze ma nulla \xE8 servito contro quelle
+    creature."
+  - Il nostro re ci ha inviati qui ben consapevole che ci stava mandando a morire
+    e scommetto che lo stesso vale per voi.
+  - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
+    fine."
+  npc_message: {fileID: 1771479380}
 --- !u!1001 &718194868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9563,6 +9578,7 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine."
+  npc_message: {fileID: 1771479380}
 --- !u!1001 &1274153314
 PrefabInstance:
   m_ObjectHideFlags: 0
