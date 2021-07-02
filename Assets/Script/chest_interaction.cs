@@ -15,20 +15,28 @@ public class chest_interaction : MonoBehaviour
   }
 
   void OnTriggerStay2D(Collider2D chest) {
-    if(Input.GetKey("x")) {
-      chest.GetComponent<Animator>().SetBool("chest_opened", true);
-      chest.transform.Find("chest_open_sound").GetComponent<AudioSource>().Play();
-      //potion_found_message.rectTransform.localScale = new Vector3(0.05f, 0.09f, 0.0f);
-      potion_found_message.SetActive(true);
-    }
+        if (chest.transform.name.Contains("chest"))
+        {
+            if (Input.GetKey("x"))
+            {
+                chest.GetComponent<Animator>().SetBool("chest_opened", true);
+                chest.transform.Find("chest_open_sound").GetComponent<AudioSource>().Play();
+                //potion_found_message.rectTransform.localScale = new Vector3(0.05f, 0.09f, 0.0f);
+                potion_found_message.SetActive(true);
+            }
+        }
   }
 
   void OnTriggerExit2D(Collider2D chest) {
-    if(chest.GetComponent<Animator>().GetBool("chest_opened")) {
-      chest.GetComponent<Animator>().SetBool("chest_opened", false);
-      chest.transform.Find("chest_close_sound").GetComponent<AudioSource>().Play();
-      //potion_found_message.rectTransform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
-      potion_found_message.SetActive(false);
-    }
+        if (chest.transform.name.Contains("chest"))
+        {
+            if (chest.GetComponent<Animator>().GetBool("chest_opened"))
+            {
+                chest.GetComponent<Animator>().SetBool("chest_opened", false);
+                chest.transform.Find("chest_close_sound").GetComponent<AudioSource>().Play();
+                //potion_found_message.rectTransform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
+                potion_found_message.SetActive(false);
+            }
+        }  
   }
 }
