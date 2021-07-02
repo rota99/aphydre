@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class witch_movement : MonoBehaviour
 {
-
   //variabili pubbliche
   public float speed;                       //velocità
   public Animator animatorBlue;
@@ -31,7 +30,7 @@ public class witch_movement : MonoBehaviour
       modificatore = 1;
     }
 
-    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s")) {
+    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("up") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s") || Input.GetKey("w")) {
       animatorBlue.SetFloat("Speed", 1);
       animatorWhite.SetFloat("Speed", 1);
     }
@@ -45,11 +44,8 @@ public class witch_movement : MonoBehaviour
     //allora lo giro nella direzione corretta
     if(((Input.GetKey("right") || Input.GetKey("d")) && transform.localScale.x < 0) || ((Input.GetKey("left") || Input.GetKey("a")) && transform.localScale.x > 0)) {
       transform.localScale = new Vector3(transform.localScale.x*(-1), transform.localScale.y, transform.localScale.z);
-      //animatorWhite.transform.position = new Vector3(animatorWhite.transform.position.x*(-1), animatorWhite.transform.position.y, animatorWhite.transform.position.z);
-      //animatorWhite.transform.localScale = new Vector3(animatorWhite.transform.localScale.x*(-1), animatorWhite.transform.localScale.y, animatorWhite.transform.localScale.z);
     }
 
-    //animator.transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
     transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
   }
 }
