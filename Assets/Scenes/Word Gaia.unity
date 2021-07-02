@@ -2612,8 +2612,9 @@ GameObject:
   m_Component:
   - component: {fileID: 427223578}
   - component: {fileID: 427223577}
+  - component: {fileID: 427223579}
   m_Layer: 0
-  m_Name: NPC2
+  m_Name: Suora2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2684,6 +2685,32 @@ Transform:
   m_Father: {fileID: 558643183}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &427223579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427223576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.13, y: 0.17}
+    newSize: {x: 0.13, y: 0.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18, y: 0.18}
+  m_EdgeRadius: 0
 --- !u!1 &456586167
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,7 +2990,7 @@ GameObject:
   - component: {fileID: 483665950}
   - component: {fileID: 483665951}
   m_Layer: 0
-  m_Name: NPC8
+  m_Name: plebeo4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2981,7 +3008,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &483665951
 SpriteRenderer:
@@ -3525,16 +3552,16 @@ Transform:
   m_LocalPosition: {x: 1228.6128, y: -345.28375, z: 1719}
   m_LocalScale: {x: 319.9988, y: 319.9988, z: 319.9988}
   m_Children:
-  - {fileID: 919441854}
-  - {fileID: 427223578}
   - {fileID: 1378287412}
+  - {fileID: 427223578}
+  - {fileID: 919441854}
   - {fileID: 1121557302}
-  - {fileID: 719603973}
-  - {fileID: 722943454}
   - {fileID: 1094657473}
   - {fileID: 483665950}
   - {fileID: 1617231871}
   - {fileID: 1997415213}
+  - {fileID: 722943454}
+  - {fileID: 719603973}
   m_Father: {fileID: 1218681809}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4393,7 +4420,7 @@ GameObject:
   - component: {fileID: 719603973}
   - component: {fileID: 719603972}
   m_Layer: 0
-  m_Name: NPC5
+  m_Name: plebeo8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4462,7 +4489,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722943452
 GameObject:
@@ -4475,7 +4502,7 @@ GameObject:
   - component: {fileID: 722943454}
   - component: {fileID: 722943453}
   m_Layer: 0
-  m_Name: NPC6
+  m_Name: plebeo7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4544,7 +4571,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &731050626
 GameObject:
@@ -6121,7 +6148,7 @@ GameObject:
   - component: {fileID: 919441854}
   - component: {fileID: 919441853}
   m_Layer: 0
-  m_Name: NPC1
+  m_Name: plebeo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6190,7 +6217,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &920768788
 PrefabInstance:
@@ -7349,6 +7376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 3841337181667090494, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
 --- !u!4 &1071247906 stripped
@@ -7367,7 +7398,7 @@ GameObject:
   - component: {fileID: 1094657473}
   - component: {fileID: 1094657474}
   m_Layer: 0
-  m_Name: NPC7
+  m_Name: plebeo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7385,7 +7416,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1094657474
 SpriteRenderer:
@@ -7921,7 +7952,7 @@ GameObject:
   - component: {fileID: 1121557302}
   - component: {fileID: 1121557301}
   m_Layer: 0
-  m_Name: NPC4
+  m_Name: plebeo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10062,8 +10093,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1378287412}
   - component: {fileID: 1378287411}
+  - component: {fileID: 1378287413}
   m_Layer: 0
-  m_Name: NPC3
+  m_Name: Suora1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10132,8 +10164,34 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!61 &1378287413
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378287410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.11, y: 0.2}
+    newSize: {x: 0.11, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.3}
+  m_EdgeRadius: 0
 --- !u!1 &1388324227
 GameObject:
   m_ObjectHideFlags: 0
@@ -11391,7 +11449,7 @@ GameObject:
   - component: {fileID: 1617231871}
   - component: {fileID: 1617231872}
   m_Layer: 0
-  m_Name: NPC9
+  m_Name: plebeo5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11409,7 +11467,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1617231872
 SpriteRenderer:
@@ -14903,7 +14961,7 @@ GameObject:
   - component: {fileID: 1997415213}
   - component: {fileID: 1997415214}
   m_Layer: 0
-  m_Name: NPC10
+  m_Name: plebeo6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14921,7 +14979,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1997415214
 SpriteRenderer:
