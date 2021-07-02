@@ -199,8 +199,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17599913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 13, z: 1}
-  m_LocalScale: {x: 55.593628, y: 55.593628, z: 55.593628}
+  m_LocalPosition: {x: -21, y: -12, z: 1}
+  m_LocalScale: {x: 86.99291, y: 86.99291, z: 86.99291}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1129,11 +1129,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - aaaaaaaaaaaaaaaaaaaaaa
-  - bbbbbbbbbbbbbb
-  - cccc
-  - dddd
-  - eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+  - "C\u2019erano una volta, tanto tempo fa, in una terra molto lontana chiamata
+    regno di Otera, tre sorelle con un grande talento per la magia e le arti occulte.
+    Talento che sin da giovani avevano utilizzato dimostrando grande coraggio, intraprendenza
+    e senso della giustizia, al punto che le loro abilit\xE0 erano conosciute ed
+    ammirate in tutto il regno. "
+  - "La maggiore delle tre si chiamava Ungri, una giovane altruista e affabile con
+    un incredibile talento per le magie di tipo fuoco. La sorella di mezzo aveva
+    un carattere pi\xF9 mite, era premurosa e prudente. Il suo principale interesse
+    erano le magie che utilizzavano la luce. Infine, la minore, Nolan, si distingueva
+    per la sua natura vivace e caparbia che l\u2019avevano portata ad apprendere
+    la difficile magia del ghiaccio. "
+  - "Un giorno, in una fredda e ventosa mattina d\u2019autunno arriv\xF2 una lettera
+    da parte del re Athis. Nella lettera il re richiedeva il loro aiuto per debellare
+    la minaccia del mostro Berog che stava minacciando la citt\xE0 di Aphydre."
+  - 'La maggiore delle tre, Ugri, decise di andare di persona ad Aphydre e dopo mesi
+    si persero le sue tracce. Preoccupate per le sorti della sorella, Maxia e Nolan
+    decisero di partire a loro volta per Aphydre, e qui inizia la nostra avventura. '
   textArea: {fileID: 1754292477}
   prevButton: {fileID: 946965822}
   nextButton: {fileID: 1976166934}
