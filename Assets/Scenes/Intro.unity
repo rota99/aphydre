@@ -554,8 +554,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 0.0000076294}
-  m_SizeDelta: {x: 937.229, y: 301.569}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1064.882, y: 449.485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107156598
 MonoBehaviour:
@@ -785,8 +785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1297, y: -1.441}
-  m_SizeDelta: {x: 313.214, y: 125.832}
+  m_AnchoredPosition: {x: 0, y: -0.00000095367}
+  m_SizeDelta: {x: 359.516, y: 162.663}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754292479
 MonoBehaviour:
@@ -821,10 +821,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure
+  m_Text: "C\u2019erano una volta, tanto tempo fa, in una terra molto lontana chiamata
+    regno di Otera, tre sorelle con un grande talento per la magia e le arti occulte.
+    Talento che sin da giovani avevano utilizzato dimostrando grande coraggio, intraprendenza
+    e senso della giustizia, al punto che le loro abilit\xE0 erano conosciute ed
+    ammirate in tutto il regno. \r"
 --- !u!222 &1754292480
 CanvasRenderer:
   m_ObjectHideFlags: 0
