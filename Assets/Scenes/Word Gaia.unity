@@ -2679,11 +2679,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427223576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -601.5928, y: 345.5984, z: -110.28482}
-  m_LocalScale: {x: 959.9965, y: 959.9965, z: 319.99884}
+  m_LocalPosition: {x: -5.7194138, y: 2.1590147, z: 1.0584888}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
-  m_Father: {fileID: 1218681809}
-  m_RootOrder: 6
+  m_Father: {fileID: 558643183}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &427223579
 BoxCollider2D:
@@ -2709,7 +2709,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18, y: 0.18}
+  m_Size: {x: 0.2, y: 0.25}
   m_EdgeRadius: 0
 --- !u!1 &456586167
 GameObject:
@@ -3009,7 +3009,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &483665951
 SpriteRenderer:
@@ -3580,6 +3580,7 @@ Transform:
   m_LocalScale: {x: 319.9988, y: 319.9988, z: 319.9988}
   m_Children:
   - {fileID: 1378287412}
+  - {fileID: 427223578}
   - {fileID: 919441854}
   - {fileID: 1121557302}
   - {fileID: 1094657473}
@@ -3589,7 +3590,7 @@ Transform:
   - {fileID: 722943454}
   - {fileID: 719603973}
   m_Father: {fileID: 1218681809}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588148629
 GameObject:
@@ -4390,6 +4391,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frasi_suore:
+  - 
+  - 
+  - 
+  - 
+  frasi_plebei:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1001 &718194868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4533,7 +4547,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &719603974
 BoxCollider2D:
@@ -4642,7 +4656,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!61 &722943455
 BoxCollider2D:
@@ -4977,6 +4991,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973125957885394845, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: b_witch_img
+      value: 
+      objectReference: {fileID: 1071247909}
+    - target: {fileID: 5973125957885394845, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: r_witch_img
+      value: 
+      objectReference: {fileID: 1071247907}
+    - target: {fileID: 5973125957885394845, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: w_witch_img
+      value: 
+      objectReference: {fileID: 1071247908}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
 --- !u!1001 &736655488
@@ -6420,7 +6446,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &919441855
 BoxCollider2D:
@@ -7559,11 +7585,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3841337181415382292, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3841337181415382292, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3841337181415382292, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7624,6 +7650,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3841337181415382292, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
   m_PrefabInstance: {fileID: 1071247905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071247907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5036814246836738277, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+  m_PrefabInstance: {fileID: 1071247905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071247908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5058032451668829783, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+  m_PrefabInstance: {fileID: 1071247905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071247909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3841337179529903632, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+  m_PrefabInstance: {fileID: 1071247905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1094657472
 GameObject:
   m_ObjectHideFlags: 0
@@ -7654,7 +7695,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1094657474
 SpriteRenderer:
@@ -8286,7 +8327,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1121557303
 BoxCollider2D:
@@ -9143,7 +9184,6 @@ RectTransform:
   - {fileID: 2052528154}
   - {fileID: 1489629648}
   - {fileID: 1434003172}
-  - {fileID: 427223578}
   - {fileID: 558643183}
   m_Father: {fileID: 2034952650}
   m_RootOrder: 0
@@ -9496,6 +9536,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frasi_suore:
+  - "Sia la strada al tuo fianco, il vento sempre alle tue spalle, che il sole splenda
+    caldo sul tuo viso e la pioggia cada dolce nei campi attorno e, finch\xE9 non
+    ci incontreremo di nuovo, possa Dio proteggervi nel palmo della sua mano. "
+  - "Benedette siate, coraggiose viaggiatrici,  che attraversate queste vie corrotte
+    dalla malvagit\xE0.  Che il Signore sia con voi,  allontani da voi le tenebre
+    del male e vi illumini con la luce del bene. "
+  - "Come i santi magi, al termine del vostro cammino, possiate trovare, con immensa
+    gioia la luce dell\u2019eterna gloria che vi attender\xE0 al termine della battaglia
+    contro il male. "
+  - "I Santi,  nel cui potere e autorit\xE0 confidiamo,  intercedano per voi presso
+    Dio  per aiutarvi nella vostra missione  contro le forze del male. "
+  frasi_plebei:
+  - Povero me! Quella bestia terribile mi ha portato via ogni cosa. Cosa abbiamo
+    fatto di male per meritare tutta questa sventura?
+  - Sono vivo solo per miracolo ma non sono sicuro di poter dire lo stesso dei miei
+    concittadini.
+  - "Da quando \xE8 arrivato quel mostro la terra \xE8 diventata arida e non cresce
+    pi\xF9 nulla attorno alla citt\xE0. Morte e carestia, sembra l\u2019arrivo dell\u2019apocalisse."
+  - Vorrei solo poter riabbracciare i miei cari, non chiedo altro ma non so dove
+    cominciare per cercarli.
+  - "Abbiamo combattuto con tutte le nostre forze ma nulla \xE8 servito contro quelle
+    creature."
+  - Il nostro re ci ha inviati qui ben consapevole che ci stava mandando a morire
+    e scommetto che lo stesso vale per voi.
+  - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
+    fine."
 --- !u!1001 &1274153314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11778,7 +11845,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &1617231872
 SpriteRenderer:
@@ -12690,6 +12757,88 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8186354587420582595, guid: e54de77560c9a394da770943328cb61d, type: 3}
   m_PrefabInstance: {fileID: 1696837881}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1698229654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1698229655}
+  - component: {fileID: 1698229657}
+  - component: {fileID: 1698229656}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1698229655
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698229654}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1771479381}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1811.6072, y: 210.0164}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1698229656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698229654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e42c0e4b8306f1f4f81197243ff77294, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Sia la strada al tuo fianco,\r il vento sempre alle tue spalle,\r che
+    il sole splenda caldo sul tuo viso\r e la pioggia cada dolce nei campi attorno\r
+    e, finch\xE9 non ci incontreremo di nuovo,\r possa Dio proteggervi nel palmo
+    della sua mano.\r"
+--- !u!222 &1698229657
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698229654}
+  m_CullTransparentMesh: 1
 --- !u!1 &1705679542
 GameObject:
   m_ObjectHideFlags: 0
@@ -13434,6 +13583,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1771479380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771479381}
+  - component: {fileID: 1771479383}
+  - component: {fileID: 1771479382}
+  m_Layer: 5
+  m_Name: npc_text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1771479381
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771479380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.09, z: 0}
+  m_Children:
+  - {fileID: 1698229655}
+  m_Father: {fileID: 1071247906}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -34}
+  m_SizeDelta: {x: 2041.5516, y: 299.884}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1771479382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771479380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 4137037144684975938, guid: 5f3daba56eb6b8e47953d7fee7faee37, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1771479383
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771479380}
+  m_CullTransparentMesh: 1
 --- !u!1 &1778908148
 GameObject:
   m_ObjectHideFlags: 0
@@ -15327,7 +15552,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 558643183}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1997415214
 SpriteRenderer:

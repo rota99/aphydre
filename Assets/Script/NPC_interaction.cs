@@ -4,40 +4,47 @@ using UnityEngine;
 
 public class npc_interaction : MonoBehaviour
 {
+  public string[] frasi_suore = new string[4];
+  public string[] frasi_plebei = new string[7];
+  public GameObject npc_message;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {
 
     }
 
-    void OnTriggerStay2D(Collider2D npc)
-    {
-        print("trovato npc");
-        if (npc.transform.name.Contains("suora"))
-        {
-            print("ecco una suora");
-            //if (Input.GetKey("x"))
-           //{
-                //chest.GetComponent<Animator>().SetBool("chest_opened", true);
-                //chest.transform.Find("chest_open_sound").GetComponent<AudioSource>().Play();
-                //potion_found_message.rectTransform.localScale = new Vector3(0.05f, 0.09f, 0.0f);
-                //potion_found_message.SetActive(true);
-            //}
+    void OnTriggerStay2D(Collider2D npc) {
+      if(npc.transform.name.Contains("suora")) {
+        if(Input.GetKeyDown("x")) {
+          //genero un numero casuale compreso tra 0 e 3
+          int i = Random.Range(0, frasi_suore.Length);
+
+          npc_message.SetActive(true);
+
+          npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frasi_suore[i].ToString();
         }
+      }
+
+      if(npc.transform.name.Contains("plebeo")) {
+        if(Input.GetKeyDown("x")) {
+          //genero un numero casuale compreso tra 0 e 3
+          int i = Random.Range(0, frasi_plebei.Length);
+
+          npc_message.SetActive(true);
+
+          npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frasi_plebei[i].ToString();
+        }
+      }
     }
 
-    void OnTriggerExit2D(Collider2D npc)
-    {
-        if (npc.transform.name.Contains("suora"))
-        {
-            print("ecco una suora");
-            //if (chest.GetComponent<Animator>().GetBool("chest_opened"))
-            //{
-            //chest.GetComponent<Animator>().SetBool("chest_opened", false);
-            //chest.transform.Find("chest_close_sound").GetComponent<AudioSource>().Play();
-            //potion_found_message.rectTransform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
-            //potion_found_message.SetActive(false);
-            //}
-        }
+    void OnTriggerExit2D(Collider2D npc) {
+      npc_message.SetActive(false);
     }
 }
