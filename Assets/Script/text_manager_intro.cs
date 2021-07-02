@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class text_manager_intro : MonoBehaviour
 {
-  public string[] texts = new string[5];
+  public string[] texts = new string[4];
   public GameObject textArea;
   public GameObject prevButton;
   public GameObject nextButton;
