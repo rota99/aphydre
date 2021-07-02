@@ -2614,7 +2614,7 @@ GameObject:
   - component: {fileID: 427223577}
   - component: {fileID: 427223579}
   m_Layer: 0
-  m_Name: Suora2
+  m_Name: suora2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4374,6 +4374,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5167311957589577348, guid: 5784df44de015a1428033cd93e95d7a6, type: 3}
   m_PrefabInstance: {fileID: 713307059}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &716393849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5973125956340240386, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+  m_PrefabInstance: {fileID: 736401636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &716393850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716393849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &718194868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9454,6 +9471,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3789130008379063947, guid: 262c1f446ae6a5e4395048f6bf52141c, type: 3}
   m_PrefabInstance: {fileID: 1239285270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1252259153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5973125957463301809, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+  m_PrefabInstance: {fileID: 736401636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252259154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252259153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1274153314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10363,7 +10397,7 @@ GameObject:
   - component: {fileID: 1378287411}
   - component: {fileID: 1378287413}
   m_Layer: 0
-  m_Name: Suora1
+  m_Name: suora1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
