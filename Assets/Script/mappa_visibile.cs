@@ -9,6 +9,9 @@ public class mappa_visibile : MonoBehaviour
     string sceneName;
 
     public GameObject ObjectMappa;
+    public GameObject puntino;
+    public GameObject puntino_gaia;
+    public GameObject puntino_prigione;
 
 
     void Start()
@@ -21,6 +24,10 @@ public class mappa_visibile : MonoBehaviour
         print(sceneName);
 
         ObjectMappa.SetActive(false);
+        puntino.SetActive(false);
+        puntino_gaia.SetActive(false);
+        puntino_prigione.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -30,14 +37,29 @@ public class mappa_visibile : MonoBehaviour
         {
             ObjectMappa.SetActive(true);
 
-            //if (sceneName == "Example 1")
-            //{
-                // Do something...
-            //}
-            //else if (sceneName == "Example 2")
-            //{
-                // Do something...
-            //}
+            if (sceneName == "World_auro")
+            {
+                puntino.SetActive(true);
+                puntino_gaia.SetActive(false);
+                puntino_prigione.SetActive(false);
+            }
+            else if (sceneName == "Word Gaia")
+            {
+                puntino.SetActive(false);
+                puntino_gaia.SetActive(true);
+                puntino_prigione.SetActive(false);
+            }
+            else if (sceneName == "Prison")
+            {
+                puntino.SetActive(false);
+                puntino_gaia.SetActive(false);
+                puntino_prigione.SetActive(true);
+            }
+            else
+            {
+                print("niente");
+            }
+
         }
         else
         {
