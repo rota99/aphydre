@@ -4165,12 +4165,11 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine"
-  frase_soldato:
-  - "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia solo me che
-    sono rimasto a dare il benvenuto. Gli altri residenti sono tutti scomparsi, sono
-    stati imprigionati tutti nei sotterranei del castello. Non andrei se fossi in
-    voi. Le creature sono terribili come incubi e i viaggiatori non fanno pi\xF9
-    ritorno."
+  frase_soldato: "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia
+    solo me che sono rimasto a dare il benvenuto. Gli altri residenti sono tutti
+    scomparsi, sono stati imprigionati tutti nei sotterranei del castello. Non andrei
+    se fossi in voi. Le creature sono terribili come incubi e i viaggiatori non fanno
+    pi\xF9 ritorno."
   npc_message: {fileID: 1771479380}
 --- !u!1001 &718194868
 PrefabInstance:
@@ -9221,12 +9220,7 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine"
-  frase_soldato:
-  - "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia solo me che
-    sono rimasto a dare il benvenuto. Gli altri residenti sono tutti scomparsi, sono
-    stati imprigionati tutti nei sotterranei del castello. Non andrei se fossi in
-    voi. Le creature sono terribili come incubi e i viaggiatori non fanno pi\xF9
-    ritorno."
+  frase_soldato: 
   npc_message: {fileID: 1771479380}
 --- !u!1001 &1274153314
 PrefabInstance:
@@ -12436,8 +12430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.922115, y: -9.9533}
-  m_SizeDelta: {x: 2061.366, y: 288.9847}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1886.6873, y: 288.9847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698229656
 MonoBehaviour:

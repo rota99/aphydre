@@ -6,7 +6,7 @@ public class npc_interaction1 : MonoBehaviour
 {
     public string[] frasi_suore = new string[4];
     public string[] frasi_plebei = new string[7];
-    public string[] frase_soldato = new string[1];
+    public string frase_soldato;
     public GameObject npc_message;
 
     // Start is called before the first frame update
@@ -52,12 +52,9 @@ public class npc_interaction1 : MonoBehaviour
         {
             if (Input.GetKeyDown("x"))
             {
-                //genero un numero casuale compreso tra 0 e 3
-                int i = Random.Range(0, frase_soldato.Length);
-
                 npc_message.SetActive(true);
 
-                npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frase_soldato[i].ToString();
+                npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frase_soldato.ToString();
             }
         }
     }
