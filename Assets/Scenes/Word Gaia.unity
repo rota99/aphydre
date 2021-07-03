@@ -525,6 +525,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &32125318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3841337181667090494, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+  m_PrefabInstance: {fileID: 1071247905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &32169680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2193,7 @@ Transform:
   - {fileID: 1677339247}
   - {fileID: 1785758194}
   m_Father: {fileID: 1434003172}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &320612789
 PrefabInstance:
@@ -3118,7 +3123,7 @@ Transform:
   - {fileID: 544864559}
   - {fileID: 1713781428}
   m_Father: {fileID: 1434003172}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &504024909
 GameObject:
@@ -3345,6 +3350,78 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3789130008379063947, guid: 262c1f446ae6a5e4395048f6bf52141c, type: 3}
   m_PrefabInstance: {fileID: 531205695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &536151436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1434003172}
+    m_Modifications:
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558189494272566141, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+      propertyPath: m_Name
+      value: chest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+--- !u!4 &536151437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4558189494272566129, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+  m_PrefabInstance: {fileID: 536151436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &536151438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8779133537072070495, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+  m_PrefabInstance: {fileID: 536151436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &536151439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8985866105595726308, guid: 7ce3bdd7e3597784d98667ee7b2ea74f, type: 3}
+  m_PrefabInstance: {fileID: 536151436}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &540500959
 PrefabInstance:
@@ -4391,34 +4468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frasi_suore:
-  - "Sia la strada al tuo fianco, il vento sempre alle tue spalle, che il sole splenda
-    caldo sul tuo viso e la pioggia cada dolce nei campi attorno e, finch\xE9 non
-    ci incontreremo di nuovo, possa Dio proteggervi nel palmo della sua mano. "
-  - "Benedette siate, coraggiose viaggiatrici,  che attraversate queste vie corrotte
-    dalla malvagit\xE0.  Che il Signore sia con voi,  allontani da voi le tenebre
-    del male e vi illumini con la luce del bene. "
-  - "Come i santi magi, al termine del vostro cammino, possiate trovare, con immensa
-    gioia la luce dell\u2019eterna gloria che vi attender\xE0 al termine della battaglia
-    contro il male. "
-  - "I Santi,  nel cui potere e autorit\xE0 confidiamo,  intercedano per voi presso
-    Dio  per aiutarvi nella vostra missione  contro le forze del male. "
-  frasi_plebei:
-  - Povero me! Quella bestia terribile mi ha portato via ogni cosa. Cosa abbiamo
-    fatto di male per meritare tutta questa sventura?
-  - Sono vivo solo per miracolo ma non sono sicuro di poter dire lo stesso dei miei
-    concittadini.
-  - "Da quando \xE8 arrivato quel mostro la terra \xE8 diventata arida e non cresce
-    pi\xF9 nulla attorno alla citt\xE0. Morte e carestia, sembra l\u2019arrivo dell\u2019apocalisse."
-  - Vorrei solo poter riabbracciare i miei cari, non chiedo altro ma non so dove
-    cominciare per cercarli.
-  - "Abbiamo combattuto con tutte le nostre forze ma nulla \xE8 servito contro quelle
-    creature."
-  - Il nostro re ci ha inviati qui ben consapevole che ci stava mandando a morire
-    e scommetto che lo stesso vale per voi.
-  - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
-    fine."
-  npc_message: {fileID: 1771479380}
 --- !u!1001 &718194868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4912,12 +4961,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5973125956340240392, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5973125957463301823, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5973125957463301823, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: open_sound
+      value: 
+      objectReference: {fileID: 536151439}
+    - target: {fileID: 5973125957463301823, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: close_sound
+      value: 
+      objectReference: {fileID: 536151438}
+    - target: {fileID: 5973125957463301823, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: potion_found_message
+      value: 
+      objectReference: {fileID: 32125318}
     - target: {fileID: 5973125957885394832, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
       propertyPath: m_Name
       value: player
@@ -8688,7 +8749,7 @@ Transform:
   - {fileID: 32169682}
   - {fileID: 936239963}
   m_Father: {fileID: 1434003172}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1164067152
 PrefabInstance:
@@ -9551,34 +9612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b47f0134f33e7e4899a893ce92df1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frasi_suore:
-  - "Sia la strada al tuo fianco, il vento sempre alle tue spalle, che il sole splenda
-    caldo sul tuo viso e la pioggia cada dolce nei campi attorno e, finch\xE9 non
-    ci incontreremo di nuovo, possa Dio proteggervi nel palmo della sua mano. "
-  - "Benedette siate, coraggiose viaggiatrici,  che attraversate queste vie corrotte
-    dalla malvagit\xE0.  Che il Signore sia con voi,  allontani da voi le tenebre
-    del male e vi illumini con la luce del bene. "
-  - "Come i santi magi, al termine del vostro cammino, possiate trovare, con immensa
-    gioia la luce dell\u2019eterna gloria che vi attender\xE0 al termine della battaglia
-    contro il male. "
-  - "I Santi,  nel cui potere e autorit\xE0 confidiamo,  intercedano per voi presso
-    Dio  per aiutarvi nella vostra missione  contro le forze del male. "
-  frasi_plebei:
-  - Povero me! Quella bestia terribile mi ha portato via ogni cosa. Cosa abbiamo
-    fatto di male per meritare tutta questa sventura?
-  - Sono vivo solo per miracolo ma non sono sicuro di poter dire lo stesso dei miei
-    concittadini.
-  - "Da quando \xE8 arrivato quel mostro la terra \xE8 diventata arida e non cresce
-    pi\xF9 nulla attorno alla citt\xE0. Morte e carestia, sembra l\u2019arrivo dell\u2019apocalisse."
-  - Vorrei solo poter riabbracciare i miei cari, non chiedo altro ma non so dove
-    cominciare per cercarli.
-  - "Abbiamo combattuto con tutte le nostre forze ma nulla \xE8 servito contro quelle
-    creature."
-  - Il nostro re ci ha inviati qui ben consapevole che ci stava mandando a morire
-    e scommetto che lo stesso vale per voi.
-  - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
-    fine."
-  npc_message: {fileID: 1771479380}
 --- !u!1001 &1274153314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10904,6 +10937,7 @@ Transform:
   m_LocalPosition: {x: 1228.6128, y: -345.28375, z: -136}
   m_LocalScale: {x: 319.9988, y: 319.9988, z: 319.9988}
   m_Children:
+  - {fileID: 536151437}
   - {fileID: 1880056608}
   - {fileID: 1991297950}
   - {fileID: 498768369}
@@ -14759,7 +14793,7 @@ Transform:
   - {fileID: 2029504644}
   - {fileID: 194864244}
   m_Father: {fileID: 1434003172}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1890002853
 GameObject:
@@ -15536,7 +15570,7 @@ Transform:
   - {fileID: 876264545}
   - {fileID: 253884326}
   m_Father: {fileID: 1434003172}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1997415212
 GameObject:
