@@ -4170,6 +4170,11 @@ MonoBehaviour:
     scomparsi, sono stati imprigionati tutti nei sotterranei del castello. Non andrei
     se fossi in voi. Le creature sono terribili come incubi e i viaggiatori non fanno
     pi\xF9 ritorno."
+  frase_contadino: "Salute a voi, viaggiatrici! Se i miei occhi non mi ingannano
+    voi siete le Eminenti Streghe che Sua Altezza Athis ha inviato per salvare tutti
+    noi. Dio sia lodato per il vostro arrivo! Permettetemi di esservi d\u2019aiuto,
+    avrete bisogno di una mappa, la citt\xE0 \xE8 grande e piena d\u2019insidie,
+    fate attenzione!"
   npc_message: {fileID: 1771479380}
 --- !u!1001 &718194868
 PrefabInstance:
@@ -9220,7 +9225,16 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine"
-  frase_soldato: 
+  frase_soldato: "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia
+    solo me che sono rimasto a dare il benvenuto. Gli altri residenti sono tutti
+    scomparsi, sono stati imprigionati tutti nei sotterranei del castello. Non andrei
+    se fossi in voi. Le creature sono terribili come incubi e i viaggiatori non fanno
+    pi\xF9 ritorno."
+  frase_contadino: "Salute a voi, viaggiatrici! Se i miei occhi non mi ingannano
+    voi siete le Eminenti Streghe che Sua Altezza Athis ha inviato per salvare tutti
+    noi. Dio sia lodato per il vostro arrivo! Permettetemi di esservi d\u2019aiuto,
+    avrete bisogno di una mappa, la citt\xE0 \xE8 grande e piena d\u2019insidie,
+    fate attenzione!"
   npc_message: {fileID: 1771479380}
 --- !u!1001 &1274153314
 PrefabInstance:

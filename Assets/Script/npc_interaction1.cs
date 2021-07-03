@@ -7,6 +7,7 @@ public class npc_interaction1 : MonoBehaviour
     public string[] frasi_suore = new string[4];
     public string[] frasi_plebei = new string[7];
     public string frase_soldato;
+    public string frase_contadino;
     public GameObject npc_message;
 
     // Start is called before the first frame update
@@ -55,6 +56,16 @@ public class npc_interaction1 : MonoBehaviour
                 npc_message.SetActive(true);
 
                 npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frase_soldato.ToString();
+            }
+        }
+
+        if (npc.transform.name.Contains("contadino"))
+        {
+            if (Input.GetKeyDown("x"))
+            {
+                npc_message.SetActive(true);
+
+                npc_message.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = frase_contadino.ToString();
             }
         }
     }
