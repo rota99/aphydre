@@ -39,6 +39,12 @@ public class change_witch : MonoBehaviour
         r_witch_img.SetActive(true);
       }
 
+      witchArray[0].GetComponent<Collider2D>().enabled = true;
+      witchArray[1].GetComponent<Collider2D>().enabled = false;
+
+      if(witchArray.Length == 3)
+        witchArray[2].GetComponent<Collider2D>().enabled = false;
+
       for(int i = 0; i <= witchArray.Length - 1; i++) {
         witchArray[i].transform.localPosition = new Vector2(positionNegArray[i], witchArray[i].transform.localPosition.y);
       }
