@@ -4165,6 +4165,12 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine"
+  frase_soldato:
+  - "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia solo me che
+    sono rimasto a dare il benvenuto. Gli altri residenti sono tutti scomparsi, sono
+    stati imprigionati tutti nei sotterranei del castello. Non andrei se fossi in
+    voi. Le creature sono terribili come incubi e i viaggiatori non fanno pi\xF9
+    ritorno."
   npc_message: {fileID: 1771479380}
 --- !u!1001 &718194868
 PrefabInstance:
@@ -9215,6 +9221,12 @@ MonoBehaviour:
     e scommetto che lo stesso vale per voi.
   - "Andatevene finch\xE9 potete! Chi ci ha provato non ha di certo fatto una bella
     fine"
+  frase_soldato:
+  - "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia solo me che
+    sono rimasto a dare il benvenuto. Gli altri residenti sono tutti scomparsi, sono
+    stati imprigionati tutti nei sotterranei del castello. Non andrei se fossi in
+    voi. Le creature sono terribili come incubi e i viaggiatori non fanno pi\xF9
+    ritorno."
   npc_message: {fileID: 1771479380}
 --- !u!1001 &1274153314
 PrefabInstance:
@@ -12424,8 +12436,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1811.6072, y: 210.0164}
+  m_AnchoredPosition: {x: 23.922115, y: -9.9533}
+  m_SizeDelta: {x: 2061.366, y: 288.9847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698229656
 MonoBehaviour:
@@ -12460,10 +12472,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Sia la strada al tuo fianco,\r il vento sempre alle tue spalle,\r che
-    il sole splenda caldo sul tuo viso\r e la pioggia cada dolce nei campi attorno\r
-    e, finch\xE9 non ci incontreremo di nuovo,\r possa Dio proteggervi nel palmo
-    della sua mano.\r"
+  m_Text: "Ehil\xE0, viaggiatrici che non temete la morte. Temo che ci sia solo me
+    che sono rimasto a dare il benvenuto. Gli altri residenti sono tutti scomparsi,
+    sono stati imprigionati tutti nei sotterranei del castello. Non andrei se fossi
+    in voi. Le creature sono terribili come incubi e i viaggiatori non fanno pi\xF9
+    ritorno."
 --- !u!222 &1698229657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13151,7 +13164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1771479381
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13169,8 +13182,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -34}
-  m_SizeDelta: {x: 2041.5516, y: 299.884}
+  m_AnchoredPosition: {x: 0.3, y: -28.7}
+  m_SizeDelta: {x: 2149.9697, y: 379.6481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771479382
 MonoBehaviour:
