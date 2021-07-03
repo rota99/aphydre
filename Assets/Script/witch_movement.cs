@@ -30,7 +30,7 @@ public class witch_movement : MonoBehaviour
       modificatore = 1;
     }
 
-    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("up") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s") || Input.GetKey("w")) {
+    if(Input.GetKey("left") && this.transform.position.x > -3000 || Input.GetKey("right") && this.transform.position.x < 2800 || Input.GetKey("down") && this.transform.position.y > -1400 || Input.GetKey("up") && this.transform.position.y < 1500 || Input.GetKey("a") && this.transform.position.x > -3000 || Input.GetKey("d") && this.transform.position.x < 2800 || Input.GetKey("s") && this.transform.position.y > -1400 || Input.GetKey("w") && this.transform.position.y < 1500) {
       animatorBlue.SetFloat("Speed", 1);
       animatorWhite.SetFloat("Speed", 1);
     }
