@@ -2349,7 +2349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550135757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 624, y: -203.9673, z: 0}
+  m_LocalPosition: {x: 700, y: -203.9673, z: 0}
   m_LocalScale: {x: -973.7183, y: 973.71826, z: 1.4285879}
   m_Children: []
   m_Father: {fileID: 2063374001}
@@ -2484,9 +2484,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ca57ed617c1be44ba95201032cb4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position1: {x: 204, y: -203.9673}
-  position2: {x: 624, y: -203.9673}
-  enemy_speed: 1
+  chances: 200
+  fire_prefab: {fileID: 4173680245932274848, guid: 1b3532aabb385c749a13840c8a1a0196, type: 3}
+  panel: {fileID: 2063374000}
 --- !u!1 &1599599317
 GameObject:
   m_ObjectHideFlags: 0
