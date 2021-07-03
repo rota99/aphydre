@@ -14,10 +14,10 @@ public class mappa_visibile : MonoBehaviour
     void Start()
     {
         // Create a temporary reference to the current scene.
-        string m_Scene = SceneManager.GetActiveScene();
+        Scene current_Scene = SceneManager.GetActiveScene();
 
         // Retrieve the name of this scene.
-        sceneName = m_Scene.name;
+        sceneName = current_Scene.name;
         print(sceneName);
 
         ObjectMappa.SetActive(false);
