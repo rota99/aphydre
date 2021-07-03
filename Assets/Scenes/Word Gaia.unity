@@ -11683,6 +11683,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4263709008881425473, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263709008881425473, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263709008881425473, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263709008881425473, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332292750577663353, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
 --- !u!4 &1071247906 stripped

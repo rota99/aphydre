@@ -2600,6 +2600,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 857987854}
     m_Modifications:
+    - target: {fileID: 2680833425730213849, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680833425730213849, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680833425730213849, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680833425730213849, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -26.9
+      objectReference: {fileID: 0}
     - target: {fileID: 3841337181415382292, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2663,6 +2679,10 @@ PrefabInstance:
     - target: {fileID: 3841337181415382297, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332292750577663353, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
