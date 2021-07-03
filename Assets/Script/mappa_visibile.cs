@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class mappa_visibile : MonoBehaviour
 {
-    //Scene m_Scene;
-    //string sceneName;
+    Scene m_Scene;
+    string sceneName;
 
     public GameObject ObjectMappa;
 
