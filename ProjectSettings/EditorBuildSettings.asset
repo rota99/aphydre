@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Prima schermata.unity
     guid: 407302c1c77799b41af9d66bee591052
   - enabled: 1
-    path: Assets/Scenes/World auro.unity
+    path: Assets/Scenes/World_auro.unity
     guid: 3e4a93e9714988b4092152a22303b3a5
   - enabled: 1
     path: Assets/Scenes/Word Gaia.unity
