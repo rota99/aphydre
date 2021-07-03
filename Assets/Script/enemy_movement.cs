@@ -17,6 +17,9 @@ public class enemy_movement : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
+    float step = enemy_speed * Time.deltaTime;
 
+    // move sprite towards the target location
+    transform.position = Vector2.MoveTowards(transform.position, position1, step);
   }
 }
