@@ -166,6 +166,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 5973125957885394834, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: coordinate.Array.data[0]
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5973125957885394834, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: coordinate.Array.data[1]
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5973125957885394834, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: coordinate.Array.data[2]
+      value: -10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5973125957885394834, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
+      propertyPath: coordinate.Array.data[3]
+      value: -10000
+      objectReference: {fileID: 0}
     - target: {fileID: 5973125957885394835, guid: d91470fbc8f64e540aef1d573467c54e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
