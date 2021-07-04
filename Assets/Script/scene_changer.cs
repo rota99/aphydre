@@ -5,10 +5,60 @@ using UnityEngine.SceneManagement;
 
 public class scene_changer : MonoBehaviour
 {
-  //funzione che viene chiamata quando viene fatto il click sul pulsante "start"
-  //passo come parametro il nome della scena verso cui voglio andare e poi
-  //eseguo la funzione SceneManager.LoadScene() dove specifico il nome della scena da caricare
-  public void changeMenuScene(string sceneName) {
+    private GameObject posArrivo;
+    private GameObject posUscita;
+    private GameObject player;
+
+    private string arrivo;
+    private string uscita;
+
+    //funzione che viene chiamata quando viene fatto il click sul pulsante "start"
+    //passo come parametro il nome della scena verso cui voglio andare e poi
+    //eseguo la funzione SceneManager.LoadScene() dove specifico il nome della scena da caricare
+    public void changeMenuScene(string sceneName) {
     SceneManager.LoadScene(sceneName);
   }
+
+    void Start()
+    {
+        posArrivo = GameObject.Find("arrivo");
+        posUscita = GameObject.Find("uscita");
+        player = GameObject.Find("player");
+
+        
+        switch(SceneManager.GetActiveScene().name)
+            {
+                case "World_auro":
+                uscita = "World Gaia";
+                break;
+                case "World Gaia":
+                arrivo = "World_auro";
+                uscita = "Prison";
+                break;
+                case "Prison":
+                arrivo = "World Gaia";
+                uscita = "boss_battle";
+                break;
+                case "boss_battle":
+                uscita = "Conclusione";
+                break;
+            default: break;
+            }
+    }
+
+    void OnTriggerEnter2D(Collider2D player)
+    {
+        //print(this.transform.name);
+        if(this.transform.name == "arrivo")
+        {
+            SceneManager.LoadScene(arrivo);
+            print(this.transform.name);
+        }
+        else
+        {
+            SceneManager.LoadScene(uscita);
+            print(this.transform.name);
+        }
+        
+    }  
 }

@@ -15,6 +15,7 @@ public class witch_movement : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
+
   }
 
   // Update is called once per frame
@@ -28,6 +29,15 @@ public class witch_movement : MonoBehaviour
     }
     else {
       modificatore = 1;
+    }
+
+    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("up") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s") || Input.GetKey("w")) {
+      animatorBlue.SetFloat("Speed", 1);
+      animatorWhite.SetFloat("Speed", 1);
+    }
+    else {
+      animatorBlue.SetFloat("Speed", 0);
+      animatorWhite.SetFloat("Speed", 0);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
