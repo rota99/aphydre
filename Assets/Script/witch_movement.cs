@@ -10,11 +10,14 @@ public class witch_movement : MonoBehaviour
   public float speed;                       //velocità
   public Animator animatorBlue;
   public Animator animatorWhite;
+  public float[] coordinate = new float[4];
+  float speedVal;
+    
 
   // Start is called before the first frame update
   void Start()
   {
-
+        speedVal = speed;
   }
 
   // Update is called once per frame
@@ -30,15 +33,15 @@ public class witch_movement : MonoBehaviour
       modificatore = 1;
     }
 
-    if(Input.GetKey("left") && this.transform.localPosition.x > -3000 || Input.GetKey("right") && this.transform.localPosition.x < 2800 || Input.GetKey("down") && this.transform.localPosition.y > -1400 || Input.GetKey("up") && this.transform.localPosition.y < 1500 || Input.GetKey("a") && this.transform.localPosition.x > -3000 || Input.GetKey("d") && this.transform.localPosition.x < 2800 || Input.GetKey("s") && this.transform.localPosition.y > -1400 || Input.GetKey("w") && this.transform.localPosition.y < 1500) {
-      animatorBlue.SetFloat("Speed", 1);
-      animatorWhite.SetFloat("Speed", 1);
-    }
-    else {
-      animatorBlue.SetFloat("Speed", 0);
-      animatorWhite.SetFloat("Speed", 0);
-    }
-
+        if((Input.GetKey("left") && this.transform.localPosition.x < -3000f) || (Input.GetKey("right") && this.transform.localPosition.x > 2800f) || (Input.GetKey("down") && this.transform.localPosition.y < -1400f) || (Input.GetKey("up") && this.transform.localPosition.y > 1500f) || (Input.GetKey("a") && this.transform.localPosition.x < -3000f) || (Input.GetKey("d") && this.transform.localPosition.x > 2800f) || (Input.GetKey("s") && this.transform.localPosition.y < -1400f) || (Input.GetKey("w") && this.transform.localPosition.y > 1500f)) {
+            speed = 0;
+        }
+        else
+        {
+            speed = speedVal;
+        }
+        
+        
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
     //oppure se l'utente vuole andare a sinistra e il personaggio è rivolto a destra,
     //allora lo giro nella direzione corretta
