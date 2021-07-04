@@ -118,6 +118,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackSpeed: {x: 100, y: 0, z: 0}
   explosion_prefab: {fileID: 3043227264349189761, guid: 491ea56aa56416a4f943483ca48d4aef, type: 3}
+  b_life: {fileID: 3841337181415382297, guid: 5e0cae3c239aae541aac226a32e561eb, type: 3}
+  w_life: {fileID: 0}
+  r_life: {fileID: 0}
 --- !u!61 &3262367053190584293
 BoxCollider2D:
   m_ObjectHideFlags: 0

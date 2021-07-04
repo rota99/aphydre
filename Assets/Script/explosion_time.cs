@@ -5,13 +5,20 @@ using UnityEngine;
 public class explosion_time : MonoBehaviour
 {
   float explosionTime;
+  Animator anim;
+
+  void Start() {
+    anim = GameObject.Find("player").transform.GetChild(0).GetComponent<Animator>();
+  }
 
   // Update is called once per frame
   void Update()
   {
     explosionTime += Time.deltaTime;
 
-    if(explosionTime > 0.5f)
+    if(explosionTime > 0.5f) {
       Destroy(this.gameObject);
+      anim.ResetTrigger("TakeDamage");
+    }
   }
 }
