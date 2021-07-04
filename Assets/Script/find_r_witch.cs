@@ -12,7 +12,7 @@ public class find_r_witch : MonoBehaviour
     {
         //player1 = GameObject.Find("playerBWR").transform.Find("R_witch_idle_0");
         redWitch = GameObject.Find("R_witch_idle_0 (1)");
-        player1 = GameObject.Find("playerBWR/R_witch_idle_0");
+        player1 = GameObject.Find("playerBWR").transform.Find("R_witch_idle_0").gameObject;
 
     }
 
