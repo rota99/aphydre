@@ -8,7 +8,7 @@ public class explosion_time : MonoBehaviour
   Animator anim;
 
   void Start() {
-    anim = GameObject.Find("player").transform.GetChild(0).GetComponent<Animator>();
+    anim = GameObject.Find("playerBWR").transform.GetChild(0).GetComponent<Animator>();
   }
 
   // Update is called once per frame
