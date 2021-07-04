@@ -34,8 +34,6 @@ public class attack : MonoBehaviour
 
         anim.SetTrigger("TakeDamage");
 
-        //player_status.transform.Find("b_life")
-
         GameObject.Find("blue_life").GetComponent<SpriteRenderer>().size -= new Vector2(0f, 1.5f);
         GameObject.Find("blue_life").transform.position += new Vector3(-1.5f * i, 0f, 0f);
 
@@ -54,7 +52,7 @@ public class attack : MonoBehaviour
         GameObject explosion = Instantiate(explosion_prefab);
         explosion.transform.position = this.transform.position;
 
-        anim.SetTrigger("TakeDamage");
+        anim.SetTrigger("TakeDamageW");
 
         GameObject.Find("white_life").GetComponent<SpriteRenderer>().size -= new Vector2(0f, 1.5f);
         GameObject.Find("white_life").transform.position += new Vector3(-1.5f * i, 0f, 0f);
