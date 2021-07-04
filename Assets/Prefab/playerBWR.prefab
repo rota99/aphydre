@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6088705676612889935}
   - component: {fileID: 6802232187324593439}
-  - component: {fileID: 2662541992138827045}
   - component: {fileID: 4814484371595794800}
   - component: {fileID: 3153147245834398912}
+  - component: {fileID: 4033975958045894323}
   m_Layer: 0
   m_Name: R_witch_idle_0
   m_TagString: Untagged
@@ -85,25 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2662541992138827045
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935992723451956245}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 73f67fb007afc6c438224065d70c2882, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &4814484371595794800
 Rigidbody2D:
   serializedVersion: 4
@@ -141,6 +122,25 @@ CapsuleCollider2D:
   m_Offset: {x: -0.00000011920929, y: 0}
   m_Size: {x: 0.18, y: 0.47}
   m_Direction: 0
+--- !u!95 &4033975958045894323
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935992723451956245}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 73f67fb007afc6c438224065d70c2882, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3769598208378567337
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +216,7 @@ MonoBehaviour:
   speed: 0
   animatorBlue: {fileID: 0}
   animatorWhite: {fileID: 0}
+  animatorRed: {fileID: 0}
   coordinate:
   - 0
   - 0
