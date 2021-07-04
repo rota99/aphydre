@@ -6308,7 +6308,7 @@ GameObject:
   - component: {fileID: 537995220}
   - component: {fileID: 537995221}
   m_Layer: 0
-  m_Name: sbarre
+  m_Name: sbarre_chiuse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
