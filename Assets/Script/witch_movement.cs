@@ -10,6 +10,7 @@ public class witch_movement : MonoBehaviour
   public float speed;                       //velocità
   public Animator animatorBlue;
   public Animator animatorWhite;
+  public Animator animatorRed;
   public float[] coordinate = new float[4];
 
   // Start is called before the first frame update
@@ -34,10 +35,16 @@ public class witch_movement : MonoBehaviour
     if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("up") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s") || Input.GetKey("w")) {
       animatorBlue.SetFloat("Speed", 1);
       animatorWhite.SetFloat("Speed", 1);
+
+      if(animatorRed)
+        animatorWhite.SetFloat("Speed", 1);
     }
     else {
       animatorBlue.SetFloat("Speed", 0);
       animatorWhite.SetFloat("Speed", 0);
+
+      if(animatorRed)
+        animatorWhite.SetFloat("Speed", 0);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,

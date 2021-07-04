@@ -52,7 +52,7 @@ public class attack : MonoBehaviour
         GameObject explosion = Instantiate(explosion_prefab);
         explosion.transform.position = this.transform.position;
 
-        anim.SetTrigger("TakeDamageW");
+        anim.SetTrigger("TakeDamage");
 
         GameObject.Find("white_life").GetComponent<SpriteRenderer>().size -= new Vector2(0f, 1.5f);
         GameObject.Find("white_life").transform.position += new Vector3(-1.5f * i, 0f, 0f);

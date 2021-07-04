@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: 15c2cf561980ed94f910ed5f6af5574b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8678150982203787722
+    second: Water Spike 01 - SpriteSheet_0
+  - first:
+      213: -2514948864855664448
+    second: Water Spike 01 - SpriteSheet_1
+  - first:
+      213: -4134644857343163019
+    second: Water Spike 01 - SpriteSheet_2
+  - first:
+      213: -3621558809158250421
+    second: Water Spike 01 - SpriteSheet_3
+  - first:
+      213: -1856134220124131547
+    second: Water Spike 01 - SpriteSheet_4
+  - first:
+      213: -4345219970163962267
+    second: Water Spike 01 - SpriteSheet_5
+  - first:
+      213: -100992126099357546
+    second: Water Spike 01 - SpriteSheet_6
+  - first:
+      213: -5070893405914316594
+    second: Water Spike 01 - SpriteSheet_7
+  - first:
+      213: 1548959838960417031
+    second: Water Spike 01 - SpriteSheet_8
+  - first:
+      213: 9075770235630394695
+    second: Water Spike 01 - SpriteSheet_12
+  - first:
+      213: -259059631193209960
+    second: Water Spike 01 - SpriteSheet_16
+  - first:
+      213: 3829257148906502348
+    second: Water Spike 01 - SpriteSheet_34
+  - first:
+      213: -1616471601334483851
+    second: Water Spike 01 - SpriteSheet_48
+  - first:
+      213: -8980970912548290146
+    second: Water Spike 01 - SpriteSheet_59
+  - first:
+      213: -1351555878285144034
+    second: Water Spike 01 - SpriteSheet_62
+  - first:
+      213: 464935170358896421
+    second: Water Spike 01 - SpriteSheet_66
+  - first:
+      213: -1387851069230488668
+    second: Water Spike 01 - SpriteSheet_70
+  - first:
+      213: -8037088343603661545
+    second: Water Spike 01 - SpriteSheet_72
+  - first:
+      213: 5789234397479685372
+    second: Water Spike 01 - SpriteSheet_73
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +168,7 @@ TextureImporter:
         width: 21
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -132,7 +189,7 @@ TextureImporter:
         width: 35
         height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,7 +210,7 @@ TextureImporter:
         width: 40
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +231,7 @@ TextureImporter:
         width: 49
         height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,7 +252,7 @@ TextureImporter:
         width: 56
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,7 +273,7 @@ TextureImporter:
         width: 58
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,7 +294,7 @@ TextureImporter:
         width: 60
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,12 +310,12 @@ TextureImporter:
       name: Water Spike 01 - SpriteSheet_7
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 160
-        width: 62
+        width: 61
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,7 +336,7 @@ TextureImporter:
         width: 63
         height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -300,7 +357,7 @@ TextureImporter:
         width: 64
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -308,6 +365,27 @@ TextureImporter:
       bones: []
       spriteID: 74d10dd91fc93fd70800000000000000
       internalID: 9075770235630394695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spike 01 - SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893c51353a2a76cf0800000000000000
+      internalID: -259059631193209960
       vertices: []
       indices: 
       edges: []
@@ -321,7 +399,7 @@ TextureImporter:
         width: 60
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,10 +417,10 @@ TextureImporter:
         serializedVersion: 2
         x: 132
         y: 83
-        width: 59
+        width: 70
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,12 +436,12 @@ TextureImporter:
       name: Water Spike 01 - SpriteSheet_59
       rect:
         serializedVersion: 2
-        x: 194
+        x: 211
         y: 84
-        width: 65
+        width: 48
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -384,7 +462,7 @@ TextureImporter:
         width: 46
         height: 74
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,36 +475,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spike 01 - SpriteSheet_63
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 105
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c2370a2d8481e970800000000000000
-      internalID: 8782446490179547846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Water Spike 01 - SpriteSheet_66
       rect:
         serializedVersion: 2
-        x: 68
+        x: 67
         y: 82
-        width: 57
+        width: 58
         height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -447,7 +504,7 @@ TextureImporter:
         width: 64
         height: 74
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,7 +525,7 @@ TextureImporter:
         width: 23
         height: 46
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -476,6 +533,27 @@ TextureImporter:
       bones: []
       spriteID: 715321bdbb6867090800000000000000
       internalID: -8037088343603661545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spike 01 - SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 25
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfccf37030e775050800000000000000
+      internalID: 5789234397479685372
       vertices: []
       indices: 
       edges: []
