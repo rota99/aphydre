@@ -30,6 +30,15 @@ public class witch_movement : MonoBehaviour
       modificatore = 1;
     }
 
+    if(Input.GetKey("left") || Input.GetKey("right") || Input.GetKey("down") || Input.GetKey("up") || Input.GetKey("a") || Input.GetKey("d") || Input.GetKey("s") || Input.GetKey("w")) {
+      animatorBlue.SetFloat("Speed", 1);
+      animatorWhite.SetFloat("Speed", 1);
+    }
+    else {
+      animatorBlue.SetFloat("Speed", 0);
+      animatorWhite.SetFloat("Speed", 0);
+    }
+
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
     //oppure se l'utente vuole andare a sinistra e il personaggio è rivolto a destra,
     //allora lo giro nella direzione corretta

@@ -8,7 +8,15 @@ public class explosion_time : MonoBehaviour
   Animator anim;
 
   void Start() {
-    anim = GameObject.Find("playerBWR").transform.GetChild(0).GetComponent<Animator>();
+    if(GameObject.Find("playerBWR").transform.Find("B_witch_idle_0").GetComponent<Collider2D>().enabled) {
+      anim = GameObject.Find("playerBWR").transform.Find("B_witch_idle_0").GetComponent<Animator>();
+    }
+    else if(GameObject.Find("playerBWR").transform.Find("W_witch_idle_0").GetComponent<Collider2D>().enabled) {
+      anim = GameObject.Find("playerBWR").transform.Find("W_witch_idle_0").GetComponent<Animator>();
+    }
+    else if(GameObject.Find("playerBWR").transform.Find("R_witch_idle_0").GetComponent<Collider2D>().enabled) {
+      anim = GameObject.Find("playerBWR").transform.Find("R_witch_idle_0").GetComponent<Animator>();
+    }
   }
 
   // Update is called once per frame
