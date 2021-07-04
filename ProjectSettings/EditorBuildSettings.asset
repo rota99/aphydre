@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/World_auro.unity
     guid: 3e4a93e9714988b4092152a22303b3a5
   - enabled: 1
-    path: Assets/Scenes/Word Gaia.unity
+    path: Assets/Scenes/World Gaia.unity
     guid: 6521b3802bb248f43915143ea7a803b4
   - enabled: 1
     path: Assets/Scenes/Prison.unity
