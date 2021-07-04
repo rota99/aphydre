@@ -6700,18 +6700,6 @@ MonoBehaviour:
     avrete bisogno di una mappa, la citt\xE0 \xE8 grande e piena d\u2019insidie,
     fate attenzione!"
   npc_message: {fileID: 1771479380}
---- !u!114 &716393852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716393849}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d26cd92e66460e4ebe938f6146385aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &718194868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14346,18 +14334,6 @@ MonoBehaviour:
     avrete bisogno di una mappa, la citt\xE0 \xE8 grande e piena d\u2019insidie,
     fate attenzione!"
   npc_message: {fileID: 1771479380}
---- !u!114 &1252259156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252259153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d26cd92e66460e4ebe938f6146385aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1268137633
 PrefabInstance:
   m_ObjectHideFlags: 0
