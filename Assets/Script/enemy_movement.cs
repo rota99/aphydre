@@ -8,8 +8,6 @@ public class enemy_movement : MonoBehaviour
   public GameObject fire_prefab;
   public GameObject panel;
 
-    float attackTime;
-
   // Start is called before the first frame update
   void Start()
   {
@@ -23,16 +21,16 @@ public class enemy_movement : MonoBehaviour
     int m = Random.Range(0, chances);
 
     if(n == m) {
-      GetComponent<Animator>().SetBool("attack", true);
-      
-      attackTime += Time.deltaTime;
+      //gameObject.GetComponent<Animator>().SetBool("Attack", true);
 
       GameObject fire = Instantiate(fire_prefab);
       fire.transform.SetParent(panel.transform, false);
 
-      if(attackTime > 1.33f) {
-        GetComponent<Animator>().SetBool("attack", false);
-      }
+      /*while(attackTime < 1.33f) {
+        attackTime += Time.deltaTime;
+      }*/
+
+      //GetComponent<Animator>().SetBool("Attack", false);
     }
   }
 }
