@@ -2384,7 +2384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ca57ed617c1be44ba95201032cb4fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chances: 10
+  chances: 200
   fire_prefab: {fileID: 4173680245932274848, guid: 1b3532aabb385c749a13840c8a1a0196, type: 3}
   panel: {fileID: 2063374000}
 --- !u!1 &1599599317
