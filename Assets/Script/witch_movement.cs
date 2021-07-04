@@ -36,15 +36,15 @@ public class witch_movement : MonoBehaviour
       animatorBlue.SetFloat("Speed", 1);
       animatorWhite.SetFloat("Speed", 1);
 
-      if(animatorRed)
-        animatorWhite.SetFloat("Speed", 1);
+      if(animatorRed != null)
+        animatorRed.SetFloat("Speed", 1);
     }
     else {
       animatorBlue.SetFloat("Speed", 0);
       animatorWhite.SetFloat("Speed", 0);
 
-      if(animatorRed)
-        animatorWhite.SetFloat("Speed", 0);
+      if(animatorRed != null)
+        animatorRed.SetFloat("Speed", 0);
     }
 
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
