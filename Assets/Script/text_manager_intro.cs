@@ -9,6 +9,7 @@ public class text_manager_intro : MonoBehaviour
   public GameObject textArea;
   public GameObject prevButton;
   public GameObject nextButton;
+  public GameObject startButton;
 
   int i = 0;
 
@@ -26,6 +27,12 @@ public class text_manager_intro : MonoBehaviour
     else {
       prevButton.GetComponent<Button>().interactable = true;
     }
+
+    if(i == texts.Length-1)
+        {
+            nextButton.GetComponent<Button>().interactable = false;
+            startButton.SetActive(true);
+        }
   }
 
   public void nextText() {
