@@ -11,13 +11,10 @@ public class witch_movement : MonoBehaviour
   public Animator animatorBlue;
   public Animator animatorWhite;
   public float[] coordinate = new float[4];
-  float speedVal;
-    
 
   // Start is called before the first frame update
   void Start()
   {
-        speedVal = speed;
   }
 
   // Update is called once per frame
@@ -33,15 +30,6 @@ public class witch_movement : MonoBehaviour
       modificatore = 1;
     }
 
-        if((Input.GetKey("left") && this.transform.localPosition.x < -3000f) || (Input.GetKey("right") && this.transform.localPosition.x > 2800f) || (Input.GetKey("down") && this.transform.localPosition.y < -1400f) || (Input.GetKey("up") && this.transform.localPosition.y > 1500f) || (Input.GetKey("a") && this.transform.localPosition.x < -3000f) || (Input.GetKey("d") && this.transform.localPosition.x > 2800f) || (Input.GetKey("s") && this.transform.localPosition.y < -1400f) || (Input.GetKey("w") && this.transform.localPosition.y > 1500f)) {
-            speed = 0;
-        }
-        else
-        {
-            speed = speedVal;
-        }
-        
-        
     //se l'utente vuole andare a destra e il personaggio è rivolto verso sinistra,
     //oppure se l'utente vuole andare a sinistra e il personaggio è rivolto a destra,
     //allora lo giro nella direzione corretta
@@ -49,6 +37,21 @@ public class witch_movement : MonoBehaviour
       transform.localScale = new Vector3(transform.localScale.x*(-1), transform.localScale.y, transform.localScale.z);
     }
 
-    transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
+    checkPosition(this.transform.localPosition, modificatore);
+  }
+
+  void checkPosition(Vector3 pos, float modificatore) {
+    //top
+    if((Input.GetKey("up") || Input.GetKey("w")) && pos.y < coordinate[0])
+      transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
+    //right
+    else if((Input.GetKey("right") || Input.GetKey("d")) && pos.x < coordinate[1])
+      transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
+    //down
+    else if((Input.GetKey("down") || Input.GetKey("s")) && pos.y > coordinate[2])
+      transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
+    //left
+    else if((Input.GetKey("left") || Input.GetKey("a")) && pos.x > coordinate[3])
+      transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"))*Time.deltaTime*speed/modificatore;
   }
 }
