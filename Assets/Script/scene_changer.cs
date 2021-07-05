@@ -29,7 +29,7 @@ public class scene_changer : MonoBehaviour
         posUscita = GameObject.Find("uscita");
         player = GameObject.Find("player");
 
-
+        //in base al mondo in cui ti trovi cambia le istruzioni per arrivo e uscita
         switch(SceneManager.GetActiveScene().name)
             {
                 case "World_auro":
@@ -49,7 +49,7 @@ public class scene_changer : MonoBehaviour
             default: break;
             }
     }
-
+    //appena muore il boss si va alla scena conclusione
     void Update() {
       if(SceneManager.GetActiveScene().name == "boss_battle") {
         if(GameObject.Find("enemy_life").GetComponent<SpriteRenderer>().size.x <= 0f) {
@@ -57,7 +57,7 @@ public class scene_changer : MonoBehaviour
         }
       }
     }
-
+    //appena si tocca il collider di arrivo/uscita in base al mondo
     void OnTriggerEnter2D(Collider2D player)
     {
         //print(this.transform.name);
