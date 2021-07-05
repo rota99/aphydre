@@ -21,7 +21,6 @@ public class mappa_visibile : MonoBehaviour
 
         // Retrieve the name of this scene.
         sceneName = current_Scene.name;
-        print(sceneName);
 
         ObjectMappa.SetActive(false);
         puntino.SetActive(false);
