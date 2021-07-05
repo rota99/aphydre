@@ -10,19 +10,21 @@ public class find_r_witch : MonoBehaviour
 
     void Start()
     {
-        //player1 = GameObject.Find("playerBWR").transform.Find("R_witch_idle_0");
+        //prima di arrivare alla cella della strega rossa si vedono solo le due streghe B e W
+        //mentre quella R nel playerBWR è disattivata
         redWitch = GameObject.Find("R_witch_idle_0 (1)");
         player1 = GameObject.Find("playerBWR").transform.Find("R_witch_idle_0").gameObject;
 
     }
 
+        //quando entra in contatto con il Box Collider2D 
         void OnTriggerEnter2D(Collider2D player)
     {
-        print("sale");
+        //la porta scompare e viene riprodotto il suono della porta
         this.GetComponent<SpriteRenderer>().size = new Vector2(0f, 0f);
         this.GetComponent<AudioSource>().Play(0);
 
-        //player1.SetActive(false);
+        //scompare la strega nella stanza e viene attivata nel playerBWR
         redWitch.SetActive(false);
         player1.SetActive(true);
     }
