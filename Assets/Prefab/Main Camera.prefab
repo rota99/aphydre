@@ -652,7 +652,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hai trovato una pozione!
+  m_Text: "Oh no, non c'\xE8 nulla!"
 --- !u!1 &3841337181327244717
 GameObject:
   m_ObjectHideFlags: 0
