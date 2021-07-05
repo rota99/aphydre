@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prima schermata.unity
     guid: 407302c1c77799b41af9d66bee591052
   - enabled: 1
+    path: Assets/Scenes/istruzioni.unity
+    guid: d309a0c10507753419927514c6d03197
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 615fc3528a9923a438c15ede5d417282
   - enabled: 1
