@@ -9,6 +9,7 @@ public class enemy_hit : MonoBehaviour
 
   float waterTime;
   GameObject enemy;
+  int i = 0;
 
 
     // Start is called before the first frame update
@@ -32,7 +33,11 @@ public class enemy_hit : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D enemy) {
+      i++;
       enemy.GetComponent<Animator>().SetTrigger("TakeDamage");
+
+      GameObject.Find("enemy_life").GetComponent<SpriteRenderer>().size -= new Vector2(0.5f, 0f);
+      GameObject.Find("enemy_life").transform.position += new Vector3(-1.5f * -i, 0f, 0f);
 
       if(!this.gameObject.transform.name.Contains("water") && enemy.transform.name.Contains("enemy")) {
         GameObject attackEnd = Instantiate(attackEnd_prefab);
