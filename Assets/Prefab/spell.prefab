@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6479592378127370100}
   - component: {fileID: 4926505755058936321}
   m_Layer: 0
-  m_Name: fire
+  m_Name: spell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,6 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3fb1dfbc21717e4d96644c6f00d8c41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackSpeed: {x: 500, y: 0, z: 0}
+  attackEnd_prefab: {fileID: 7691806785770022192, guid: 574860ff4e3b7a64fb7d8b768f93450f, type: 3}
 --- !u!61 &4926505755058936321
 BoxCollider2D:
   m_ObjectHideFlags: 0

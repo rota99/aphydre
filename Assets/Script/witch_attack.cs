@@ -29,14 +29,10 @@ public class witch_attack : MonoBehaviour
         else if(GameObject.Find("playerBWR").transform.Find("W_witch_idle_0").GetComponent<Collider2D>().enabled) {
           GameObject spell = Instantiate(spell_prefab);
           spell.transform.SetParent(panel.transform, false);
-          spell.transform.position = this.transform.position;
-          spell.transform.position = Vector3.MoveTowards(this.transform.position, enemy_pos, 100*Time.deltaTime);
         }
         else if(GameObject.Find("playerBWR").transform.Find("R_witch_idle_0").GetComponent<Collider2D>().enabled) {
           GameObject fire = Instantiate(fire_prefab);
           fire.transform.SetParent(panel.transform, false);
-          fire.transform.position = this.transform.position;
-          fire.transform.position = Vector3.MoveTowards(this.transform.position, enemy_pos, 100*Time.deltaTime);
         }
       }
     }
