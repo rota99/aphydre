@@ -24,7 +24,7 @@ public class witch_attack : MonoBehaviour
         if(GameObject.Find("playerBWR").transform.Find("B_witch_idle_0").GetComponent<Collider2D>().enabled) {
           GameObject water = Instantiate(water_prefab);
           water.transform.SetParent(panel.transform, false);
-          water.transform.position = new Vector2(enemy_pos.x, enemy_pos.y - 20f);
+          water.transform.position = new Vector3(enemy_pos.x, enemy_pos.y - 20f, -1f);
         }
         else if(GameObject.Find("playerBWR").transform.Find("W_witch_idle_0").GetComponent<Collider2D>().enabled) {
           GameObject spell = Instantiate(spell_prefab);

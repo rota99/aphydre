@@ -16,8 +16,12 @@ public class scene_changer : MonoBehaviour
     //passo come parametro il nome della scena verso cui voglio andare e poi
     //eseguo la funzione SceneManager.LoadScene() dove specifico il nome della scena da caricare
     public void changeMenuScene(string sceneName) {
-    SceneManager.LoadScene(sceneName);
-  }
+      SceneManager.LoadScene(sceneName);
+    }
+
+    public void doExitGame() {
+      Application.Quit();
+    }
 
     void Start()
     {
@@ -25,7 +29,7 @@ public class scene_changer : MonoBehaviour
         posUscita = GameObject.Find("uscita");
         player = GameObject.Find("player");
 
-        
+
         switch(SceneManager.GetActiveScene().name)
             {
                 case "World_auro":
@@ -39,11 +43,19 @@ public class scene_changer : MonoBehaviour
                 arrivo = "World Gaia";
                 uscita = "boss_battle";
                 break;
-                case "boss_battle":
+                /*case "boss_battle":
                 uscita = "Conclusione";
-                break;
+                break;*/
             default: break;
             }
+    }
+
+    void Update() {
+      if(SceneManager.GetActiveScene().name == "boss_battle") {
+        if(GameObject.Find("enemy_life").GetComponent<SpriteRenderer>().size.x <= 0f) {
+          SceneManager.LoadScene("Conclusione");
+        }
+      }
     }
 
     void OnTriggerEnter2D(Collider2D player)
@@ -52,13 +64,11 @@ public class scene_changer : MonoBehaviour
         if(this.transform.name == "arrivo")
         {
             SceneManager.LoadScene(arrivo);
-            print(this.transform.name);
         }
         else
         {
             SceneManager.LoadScene(uscita);
-            print(this.transform.name);
         }
-        
-    }  
+
+    }
 }
